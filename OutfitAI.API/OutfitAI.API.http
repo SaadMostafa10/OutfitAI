@@ -1,0 +1,6 @@
+@OutfitAI.API_HostAddress = http://localhost:5034
+
+GET {{OutfitAI.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
