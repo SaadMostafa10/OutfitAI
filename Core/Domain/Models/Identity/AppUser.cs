@@ -10,6 +10,6 @@ namespace Domain.Models.Identity
     public class AppUser :IdentityUser
     {
         public string FullName { get; set; }
-        public bool? IsAgree { get; set; }
+        public bool IsAgree { get; set; } 
     }
 }

@@ -1,7 +1,10 @@
 ﻿//using Domain.Contracts;
-using Persistance;
+using Domain.Models.Identity;
+using Microsoft.AspNetCore.Identity;
 //using Services;
 using OutfitAI.API.Middleware;
+using Persistance;
+using Persistance.Identity;
 namespace OutfitAI.API.Extentions
 {
     public static class Extentions
@@ -13,6 +16,8 @@ namespace OutfitAI.API.Extentions
             services.AddSwaggerServices();
 
             services.AddInfrastructureServices(configuration);
+
+            services.AddIdentityServices();
             //services.AddApplicationServices();
 
             // TO DO 
@@ -29,6 +34,13 @@ namespace OutfitAI.API.Extentions
         {
             services.AddEndpointsApiExplorer();
             services.AddSwaggerGen();
+            return services;
+        }
+
+        private static IServiceCollection AddIdentityServices(this IServiceCollection services)
+        {
+            services.AddIdentity<AppUser, IdentityRole>()
+                    .AddEntityFrameworkStores<OutfitIdentityDbContext>();
             return services;
         }
 
