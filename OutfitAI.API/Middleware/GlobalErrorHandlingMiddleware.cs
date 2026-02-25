@@ -44,6 +44,10 @@ namespace OutfitAI.API.Middleware
                     NotFoundException => StatusCodes.Status404NotFound,
                     UnAuthorizedException => StatusCodes.Status401Unauthorized,
                     ValidationException => HandleValidationExceptionAsync((ValidationException)ex, response),
+
+                    EmailAlreadyExistsException => StatusCodes.Status400BadRequest,
+                    MustAgreeToTermsException => StatusCodes.Status400BadRequest,
+                    
                     _ => StatusCodes.Status500InternalServerError
                 };
 

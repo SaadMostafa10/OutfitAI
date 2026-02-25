@@ -1,7 +1,7 @@
 ﻿//using Domain.Contracts;
 using Domain.Models.Identity;
 using Microsoft.AspNetCore.Identity;
-//using Services;
+using Services;
 using OutfitAI.API.Middleware;
 using Persistance;
 using Persistance.Identity;
@@ -18,7 +18,8 @@ namespace OutfitAI.API.Extentions
             services.AddInfrastructureServices(configuration);
 
             services.AddIdentityServices();
-            //services.AddApplicationServices();
+            
+            services.AddApplicationServices(configuration);
 
             // TO DO 
             // .ConfigureServices()

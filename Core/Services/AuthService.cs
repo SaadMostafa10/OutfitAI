@@ -1,20 +1,33 @@
 ﻿using Domain.Exceptions;
 using Domain.Models.Identity;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.Options;
+using Microsoft.IdentityModel.Tokens;
 using Services.Abstractions;
 using Shared;
 using System;
 using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
+using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Services
 {
-    public class AuthService(UserManager<AppUser> userManager) : IAuthService
+    public class AuthService(UserManager<AppUser>userManager, IOptions<JwtOptions> options) : IAuthService
     {
         public async Task<UserResultDto> CreateAccountAsync(CreateAccountDto accountDto)
         {
+            var userFromDb = await userManager.FindByEmailAsync(accountDto.Email);
+
+            if (userFromDb != null)
+                throw new EmailAlreadyExistsException(accountDto.Email);
+
+            if (!accountDto.IsAgree)
+                throw new MustAgreeToTermsException();
+
+
             var user = new AppUser()
             {
                 Email = accountDto.Email,
@@ -33,7 +46,7 @@ namespace Services
             {
                 Email = accountDto.Email,
                 FullName = accountDto.FullName,
-                Token = "TOKEN"
+                Token = await GenerateJwtToken(user)
             };
 
         }
@@ -50,8 +63,49 @@ namespace Services
             {
                 Email = user.Email,
                 FullName = user.FullName,
-                Token = "TOKEN"
+                Token = await GenerateJwtToken(user)
             };
+        }
+
+        private async Task<string> GenerateJwtToken(AppUser user)
+        {
+            // Token => 
+            // Header.
+            // Payload. 
+            // Signature
+
+            var jwtOptions = options.Value;
+
+            var authClaims = new List<Claim>()
+            {
+                new Claim(ClaimTypes.Name , user.UserName),
+                new Claim(ClaimTypes.Email , user.Email),
+            };
+
+            // Put Roles in Token throw authClaims
+            var roles = await userManager.GetRolesAsync(user);
+            foreach (var role in roles)
+            {
+                authClaims.Add(new Claim(ClaimTypes.Role, role));
+            }
+
+
+
+            var secretKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtOptions.SecretKey));
+
+            var token = new JwtSecurityToken(
+                issuer: jwtOptions.Issuer,
+                audience: jwtOptions.Audience,
+                claims: authClaims,
+                expires: DateTime.UtcNow.AddDays(jwtOptions.DurationInDays),
+                signingCredentials: new SigningCredentials(secretKey, SecurityAlgorithms.HmacSha256Signature)
+
+                );
+
+            // Now Token Created
+
+            // Encrypt This Token
+            return new JwtSecurityTokenHandler().WriteToken(token);
         }
     }
 }
