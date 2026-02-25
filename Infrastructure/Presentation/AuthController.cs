@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Services;
 using Services.Abstractions;
 using Shared;
 using System;
@@ -27,6 +28,25 @@ namespace Presentation
         {
             var result = await serviceManager.AuthService.CreateAccountAsync(accountDto);
             return Ok(result);
+        }
+
+        [HttpPost("forget-password")] // POST: /api/auth/forget-password
+        public async Task<IActionResult> ForgetPassword(ForgetPasswordDto forgetPasswordDto)
+        {
+            // Use the ServiceManager you created before to reach AuthService
+            var token = await serviceManager.AuthService.ForgetPasswordAsync(forgetPasswordDto);
+
+            // Returning a structured response instead of an anonymous object
+            return Ok(AuthResponseDto.ForgetPasswordSuccess(token));
+        }
+
+        [HttpPost("reset-password")] // POST: /api/auth/reset-password
+        public async Task<IActionResult> ResetPassword(ResetPasswordDto resetPasswordDto)
+        {
+            var result = await serviceManager.AuthService.ResetPasswordAsync(resetPasswordDto);
+
+            return Ok(AuthResponseDto.PasswordResetSuccess());
+
         }
     }
 }

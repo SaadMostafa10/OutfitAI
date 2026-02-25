@@ -107,5 +107,32 @@ namespace Services
             // Encrypt This Token
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
+
+        public async Task<string> ForgetPasswordAsync(ForgetPasswordDto forgetPasswordDto)
+        {
+            // Validate user existence
+            var user = await userManager.FindByEmailAsync(forgetPasswordDto.Email);
+            if (user == null) throw new UnAuthorizedException();
+
+            // Generate Identity reset token
+            return await userManager.GeneratePasswordResetTokenAsync(user);
+        }
+
+        public async Task<bool> ResetPasswordAsync(ResetPasswordDto resetPasswordDto)
+        {
+            var user = await userManager.FindByEmailAsync(resetPasswordDto.Email);
+            if (user == null) throw new UnAuthorizedException();
+
+            // Validate token and update password
+            var result = await userManager.ResetPasswordAsync(user, resetPasswordDto.Token, resetPasswordDto.NewPassword);
+
+            if (!result.Succeeded)
+            {
+                var errors = result.Errors.Select(e => e.Description);
+                throw new ValidationException(errors);
+            }
+
+            return true;
+        }
     }
 }

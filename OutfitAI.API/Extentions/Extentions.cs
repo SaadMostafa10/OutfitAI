@@ -41,7 +41,9 @@ namespace OutfitAI.API.Extentions
         private static IServiceCollection AddIdentityServices(this IServiceCollection services)
         {
             services.AddIdentity<AppUser, IdentityRole>()
-                    .AddEntityFrameworkStores<OutfitIdentityDbContext>();
+                    .AddEntityFrameworkStores<OutfitIdentityDbContext>()
+                    .AddDefaultTokenProviders(); 
+
             return services;
         }
 

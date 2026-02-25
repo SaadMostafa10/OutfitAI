@@ -11,6 +11,8 @@ namespace Services.Abstractions
     {
         Task<UserResultDto> LogInAsync(LoginDto loginDto);
         Task<UserResultDto> CreateAccountAsync(CreateAccountDto accountDto);
+        Task<string> ForgetPasswordAsync(ForgetPasswordDto forgetPasswordDto);
+        Task<bool> ResetPasswordAsync(ResetPasswordDto resetPasswordDto);
 
     }
 }

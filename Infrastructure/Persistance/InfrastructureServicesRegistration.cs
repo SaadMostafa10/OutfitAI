@@ -21,7 +21,7 @@ namespace Persistance
                 options.UseSqlServer(configuration.GetConnectionString("IdentityConnection"));
             });
 
-
+            
             return services;
         }
     }
