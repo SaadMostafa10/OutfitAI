@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using Domain.Contracts;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Services.Abstractions;
 using Shared;
@@ -18,6 +19,7 @@ namespace Services
             services.AddScoped<IServiceManager, ServiceManager>();
             services.AddScoped<IAuthService, AuthService>();
             services.Configure<JwtOptions>(configuration.GetSection("JwtOptions"));
+            services.AddTransient<IEmailSender, EmailSender>();
             return services;
         }
     }

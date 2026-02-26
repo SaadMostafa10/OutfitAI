@@ -1,4 +1,6 @@
-﻿using Domain.Exceptions;
+﻿using Domain.Contracts;
+using Domain.Exceptions;
+using Domain.Models;
 using Domain.Models.Identity;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Options;
@@ -15,7 +17,7 @@ using System.Threading.Tasks;
 
 namespace Services
 {
-    public class AuthService(UserManager<AppUser>userManager, IOptions<JwtOptions> options) : IAuthService
+    public class AuthService(UserManager<AppUser>userManager, IOptions<JwtOptions> options ,IEmailSender emailSender) : IAuthService
     {
         public async Task<UserResultDto> CreateAccountAsync(CreateAccountDto accountDto)
         {
@@ -110,12 +112,27 @@ namespace Services
 
         public async Task<string> ForgetPasswordAsync(ForgetPasswordDto forgetPasswordDto)
         {
-            // Validate user existence
+            // 1. Verify if the user exists in the database 
             var user = await userManager.FindByEmailAsync(forgetPasswordDto.Email);
             if (user == null) throw new UnAuthorizedException();
 
-            // Generate Identity reset token
-            return await userManager.GeneratePasswordResetTokenAsync(user);
+            // 2. Generate a unique password reset token 
+            var token = await userManager.GeneratePasswordResetTokenAsync(user);
+
+            // 3. Prepare the email message with the token 
+            ////// will change to send link 
+            var emailModel = new Email
+            {
+                To = forgetPasswordDto.Email,
+                Subject = "Reset Your Password",
+                Body = $"Your reset token is: {token}" // Basic text body as requested 
+            };
+
+            // 4. Send the email 
+            await emailSender.SendEmailAsync(emailModel);
+
+            // 5. Return the token for Postman testing 
+            return token;
         }
 
         public async Task<bool> ResetPasswordAsync(ResetPasswordDto resetPasswordDto)
