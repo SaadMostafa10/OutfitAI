@@ -56,11 +56,13 @@ namespace OutfitAI.API.Extentions
 
             app.UseGlobalErrorHandling(); // User-Defined Middleware
 
+            app.UseSwagger();
+            app.UseSwaggerUI();
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
-                app.UseSwagger();
-                app.UseSwaggerUI();
+                //app.UseSwagger();
+                //app.UseSwaggerUI();
             }
 
             app.UseStaticFiles();

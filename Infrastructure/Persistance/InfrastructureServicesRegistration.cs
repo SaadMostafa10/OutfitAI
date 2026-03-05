@@ -14,7 +14,10 @@ namespace Persistance
 {
     public static class InfrastructureServicesRegistration
     {
-        public static IServiceCollection AddInfrastructureServices(this IServiceCollection services, IConfiguration configuration)
+        public static IServiceCollection AddInfrastructureServices(
+            this IServiceCollection services,
+            IConfiguration configuration
+            )
         {
 
             services.AddDbContext<OutfitIdentityDbContext>(options =>
@@ -23,6 +26,8 @@ namespace Persistance
                 options.UseSqlServer(configuration.GetConnectionString("IdentityConnection"));
             });
 
+
+           
 
             return services;
         }
