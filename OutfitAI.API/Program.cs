@@ -1,4 +1,10 @@
 
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using OutfitAI.API.Extentions;
+using Persistance.Identity;
+
 namespace OutfitAI.API
 {
     public class Program
@@ -9,26 +15,19 @@ namespace OutfitAI.API
 
             // Add services to the container.
 
-            builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-            builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerGen();
+            
+
+            builder.Services.RegisterAllServices(builder.Configuration);
+
+            
 
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
-            if (app.Environment.IsDevelopment())
-            {
-                app.UseSwagger();
-                app.UseSwaggerUI();
-            }
+            // Middlewares
 
-            app.UseHttpsRedirection();
+            app.ConfigureMiddlewares();
 
-            app.UseAuthorization();
-
-
-            app.MapControllers();
+            
 
             app.Run();
         }
