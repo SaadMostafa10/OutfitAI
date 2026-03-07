@@ -1,4 +1,5 @@
 ﻿using Domain.Exceptions;
+using Domain.Exceptions.BadRequest.Outfit;
 using Shared;
 
 namespace OutfitAI.API.Middleware
@@ -22,6 +23,7 @@ namespace OutfitAI.API.Middleware
                 // TO DO 
                 // NotFound EndPoint and refactoring 
 
+               
 
             }
             catch (Exception ex)
@@ -47,7 +49,11 @@ namespace OutfitAI.API.Middleware
 
                     EmailAlreadyExistsException => StatusCodes.Status400BadRequest,
                     MustAgreeToTermsException => StatusCodes.Status400BadRequest,
-                    
+
+                    OutfitImagesRequiredException => StatusCodes.Status400BadRequest,
+                    InvalidImageFileException => StatusCodes.Status400BadRequest,
+                   
+                     
                     _ => StatusCodes.Status500InternalServerError
                 };
 
