@@ -1,10 +1,15 @@
 ﻿using AutoMapper;
 using Domain.Contracts;
 using Domain.Exceptions.BadRequest.Outfit;
+using Domain.Exceptions.NotFound;
 using Domain.Models.Outfit;
 using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Configuration;
 using Services.Abstractions;
 using Services.Abstractions.Outfit;
+using Services.Abstractions.URLService;
+using Services.Specifications;
+using Shared;
 using Shared.Dtos.OutfitDtos;
 using System;
 using System.Collections.Generic;
@@ -13,10 +18,6 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
-using Domain.Exceptions.NotFound;
-using Microsoft.Extensions.Configuration;
-using Services.Abstractions.URLService;
-using Services.Specifications;
 namespace Services.Outfit
 {
     public class OutfitService(
@@ -120,13 +121,19 @@ namespace Services.Outfit
             
         }
 
-        public async Task<IEnumerable<OutfitHistoryDto>> GetUserHistoryAsync(string userId)
+        public async Task<PaginationResponse<OutfitHistoryDto>> GetUserHistoryAsync(string userId ,OutfitHistorySpecificationsParameters specParams)
         {
             // 1. Get data using specification
-            var spec = new OutfitHistoryWithUserSpecification(userId);
+            var dataSpec = new OutfitHistoryWithUserSpecification(userId, specParams);
+            var countSpec = new OutfitHistoryWithUserSpecification(userId);
+
             var historyList = await unitOfWork
                 .Repository<OutfitHistory>()
-                .GetAllWithSpecAsync(spec);
+                .GetAllWithSpecAsync(dataSpec);
+
+            var totalCount = await unitOfWork
+                .Repository<OutfitHistory>()
+                .CountAsync(countSpec);
 
             // 2. Map to DTO
             var result = mapper.Map<IEnumerable<OutfitHistoryDto>>(historyList);
@@ -141,7 +148,12 @@ namespace Services.Outfit
                 item.BagImagePath = urlService.BuildImageUrl(item.BagImagePath);
             }
 
-            return result;
+            // Return paginated response
+            return new PaginationResponse<OutfitHistoryDto>(
+            specParams.PageIndex,
+            specParams.PageSize,
+            totalCount,
+            result);
         }
 
         public async Task<bool> DeleteHistoryItemAsync(string userId, int historyId)

@@ -1,4 +1,5 @@
 ﻿
+using Shared;
 using Shared.Dtos.OutfitDtos;
 using System;
 using System.Collections.Generic;
@@ -11,7 +12,7 @@ namespace Services.Abstractions.Outfit
     public interface IOutfitService
     {
         Task<OutfitResultDto> AnalyzeAndSaveOutfitAsync(string userId, OutfitRequestDto request);
-        Task<IEnumerable<OutfitHistoryDto>> GetUserHistoryAsync(string userId);
+        Task<PaginationResponse<OutfitHistoryDto>> GetUserHistoryAsync(string userId, OutfitHistorySpecificationsParameters specParams);
         Task<bool> DeleteHistoryItemAsync(string userId, int historyId);
     }
 }

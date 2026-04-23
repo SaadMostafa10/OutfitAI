@@ -26,7 +26,7 @@ namespace Persistance.Repositories
 
         public async Task<IEnumerable<TEntity>> GetAllWithSpecAsync(ISpecifications<TEntity> spec)
         {
-            return await SpecificationEvaluator<TEntity>.GetQuery(_context.Set<TEntity>().AsQueryable(), spec).ToListAsync();
+            return await ApplySpecification(spec).ToListAsync();
         }
 
         // Implementation
@@ -38,5 +38,15 @@ namespace Persistance.Repositories
 
         public void Delete(TEntity entity)
             => _context.Set<TEntity>().Remove(entity);
+
+        public async Task<int> CountAsync(ISpecifications<TEntity> spec)
+        {
+            return await ApplySpecification(spec).CountAsync();
+        }
+
+        private IQueryable<TEntity> ApplySpecification(ISpecifications<TEntity> spec)
+        {
+            return SpecificationEvaluator<TEntity>.GetQuery(_context.Set<TEntity>().AsQueryable(), spec);
+        }
     }
 }

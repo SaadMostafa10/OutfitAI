@@ -14,5 +14,8 @@ namespace Domain.Contracts
 
         // Sorting newest to oldest
         Expression<Func<TEntity, object>> OrderByDescending { get; set; }
+        int Skip { get; set; }
+        int Take { get; set; }
+        bool IsPagination { get; set; }
     }
 }

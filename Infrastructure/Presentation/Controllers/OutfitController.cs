@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Services.Abstractions.Outfit;
+using Shared;
 using Shared.Dtos.AuthDtos;
 using Shared.Dtos.OutfitDtos;
 using System;
@@ -41,14 +42,14 @@ namespace Presentation.Controllers
         [HttpGet("history")]
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(IEnumerable<OutfitHistoryDto>))]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
-        public async Task<IActionResult> GetHistory()
+        public async Task<IActionResult> GetHistory([FromQuery] OutfitHistorySpecificationsParameters specParams)
         {
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
 
             if (string.IsNullOrEmpty(userId))
                 return Unauthorized();
 
-            var history = await outfitService.GetUserHistoryAsync(userId);
+            var history = await outfitService.GetUserHistoryAsync(userId,specParams);
 
             return Ok(history);
         }
