@@ -2,11 +2,13 @@
 using Domain.Exceptions;
 using Domain.Models;
 using Domain.Models.Identity;
+using Domain.Models.Outfit;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using Services.Abstractions;
-using Shared;
+using Shared.Dtos.AuthDtos;
+using Shared.Dtos.OutfitDtos;
 using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
@@ -15,7 +17,7 @@ using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Services
+namespace Services.Auth
 {
     public class AuthService(UserManager<AppUser>userManager, IOptions<JwtOptions> options ,IEmailSender emailSender) : IAuthService
     {
@@ -82,6 +84,7 @@ namespace Services
             {
                 new Claim(ClaimTypes.Name , user.UserName),
                 new Claim(ClaimTypes.Email , user.Email),
+                new Claim(ClaimTypes.NameIdentifier, user.Id)
             };
 
             // Put Roles in Token throw authClaims
@@ -102,7 +105,7 @@ namespace Services
                 expires: DateTime.UtcNow.AddDays(jwtOptions.DurationInDays),
                 signingCredentials: new SigningCredentials(secretKey, SecurityAlgorithms.HmacSha256Signature)
 
-                );
+            );
 
             // Now Token Created
 
@@ -151,5 +154,7 @@ namespace Services
 
             return true;
         }
+
+        
     }
 }

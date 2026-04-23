@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Persistance.Identity;
 
@@ -11,9 +12,11 @@ using Persistance.Identity;
 namespace Persistance.Identity.Migrations
 {
     [DbContext(typeof(OutfitIdentityDbContext))]
-    partial class OutfitIdentityDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260415075413_AddOutfitHistoryTable")]
+    partial class AddOutfitHistoryTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -117,13 +120,10 @@ namespace Persistance.Identity.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValueSql("GETUTCDATE()");
+                        .HasDefaultValueSql("GETDATE()");
 
-                    b.Property<float?>("ImprovedScore")
+                    b.Property<float>("ImprovedScore")
                         .HasColumnType("real");
-
-                    b.Property<bool>("IsCompatible")
-                        .HasColumnType("bit");
 
                     b.Property<float>("OriginalScore")
                         .HasColumnType("real");
