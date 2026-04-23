@@ -18,31 +18,13 @@ namespace OutfitAI.API
 
             // Add services to the container.
 
-            
-
             builder.Services.RegisterAllServices(builder.Configuration);
-
-
-            builder.Services.AddHttpClient<IOutfitService, OutfitService>(client =>
-            {
-                client.BaseAddress = new Uri(builder.Configuration["AIModel:BaseUrl"]);
-                client.Timeout = TimeSpan.FromSeconds(60);
-            });
-
-            // Suppress automatic model state validation to allow custom error handling
-            builder.Services.Configure<ApiBehaviorOptions>(options =>
-            {
-                options.SuppressModelStateInvalidFilter = true;
-            });
-
 
             var app = builder.Build();
 
             // Middlewares
 
             app.ConfigureMiddlewares();
-
-            
 
             app.Run();
         }

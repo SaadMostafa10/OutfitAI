@@ -11,5 +11,6 @@ namespace Services.Abstractions
     {
         IAuthService AuthService { get; }
         IOutfitService OutfitService { get; }
+        IUserProfileService UserProfileService { get; }
     }
 }

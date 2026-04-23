@@ -10,6 +10,8 @@ namespace Services.Abstractions.Outfit
 {
     public interface IOutfitService
     {
-        Task<OutfitResultDto> AnalyzeOutfitAsync(OutfitRequestDto request);
+        Task<OutfitResultDto> AnalyzeAndSaveOutfitAsync(string userId, OutfitRequestDto request);
+        Task<IEnumerable<OutfitHistoryDto>> GetUserHistoryAsync(string userId);
+        Task<bool> DeleteHistoryItemAsync(string userId, int historyId);
     }
 }

@@ -1,6 +1,7 @@
 ﻿using Domain.Exceptions;
 using Domain.Exceptions.BadRequest.Outfit;
-using Shared;
+using Domain.Exceptions.NotFound;
+using Shared.Dtos.AuthDtos;
 
 namespace OutfitAI.API.Middleware
 {

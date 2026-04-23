@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Persistance.Identity;
 
@@ -11,9 +12,11 @@ using Persistance.Identity;
 namespace Persistance.Identity.Migrations
 {
     [DbContext(typeof(OutfitIdentityDbContext))]
-    partial class OutfitIdentityDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260417114248_EditHistoryTable")]
+    partial class EditHistoryTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -119,7 +122,7 @@ namespace Persistance.Identity.Migrations
                         .HasColumnType("datetime2")
                         .HasDefaultValueSql("GETUTCDATE()");
 
-                    b.Property<float?>("ImprovedScore")
+                    b.Property<float>("ImprovedScore")
                         .HasColumnType("real");
 
                     b.Property<bool>("IsCompatible")

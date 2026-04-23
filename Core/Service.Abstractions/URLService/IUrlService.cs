@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Domain.Exceptions
+namespace Services.Abstractions.URLService
 {
-    public abstract class NotFoundException(string message) : Exception(message)
+    public interface IUrlService
     {
-
+        string BuildImageUrl(string? fileName);
     }
 }

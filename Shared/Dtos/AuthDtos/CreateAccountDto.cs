@@ -1,16 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Shared
+namespace Shared.Dtos.AuthDtos
 {
-    public class LoginDto
+    public class CreateAccountDto
     {
-        [EmailAddress]
+        public string FullName { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
+        public string ConfirmPassword { get; set; }
+        public bool IsAgree { get; set; }
+
     }
 }

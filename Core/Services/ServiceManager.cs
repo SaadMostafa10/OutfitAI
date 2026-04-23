@@ -1,4 +1,5 @@
-﻿using Domain.Models.Identity;
+﻿using Domain.Contracts;
+using Domain.Models.Identity;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Options;
 using Services.Abstractions;
@@ -13,10 +14,13 @@ using System.Threading.Tasks;
 
 namespace Services
 {
-    public class ServiceManager(IAuthService authService , IOutfitService outfitService) : IServiceManager
+    public class ServiceManager(
+         IAuthService authService,
+         IOutfitService outfitService,
+         IUserProfileService userProfileService) : IServiceManager 
     {
         public IAuthService AuthService { get; } = authService;
-
         public IOutfitService OutfitService { get; } = outfitService;
+        public IUserProfileService UserProfileService { get; } = userProfileService;
     }
 }
