@@ -20,6 +20,11 @@ namespace Persistance
             if (spec.OrderByDescending != null)
                 query = query.OrderByDescending(spec.OrderByDescending);
 
+            if (spec.IsPagination)
+            {
+                query = query.Skip(spec.Skip).Take(spec.Take);
+            }
+
             return query;
         }
     }
