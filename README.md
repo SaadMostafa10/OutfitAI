@@ -1,4 +1,4 @@
-# 👕 Outfitr - AI-Powered Outfit Recommendation System
+# 👕 Outfix - AI-Powered Outfit Recommendation System
 
 **Outfitr** is an innovative platform that leverages AI to provide personalized fashion recommendations by analyzing user-uploaded clothing items.
 
