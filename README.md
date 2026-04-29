@@ -1,6 +1,6 @@
 # 👕 Outfix - AI-Powered Outfit Recommendation System
 
-**Outfitr** is an innovative platform that leverages AI to provide personalized fashion recommendations by analyzing user-uploaded clothing items.
+**Outfix** is an innovative platform that leverages AI to provide personalized fashion recommendations by analyzing user-uploaded clothing items.
 
 ## 🔗 Live Demo & Documentation
 * **Swagger API UI:** [Explore the API here](http://outfitai.runasp.net/swagger/index.html)
@@ -26,7 +26,7 @@
 * **History Controller:** Storing and retrieving past analysis results (with Pagination).
 
 ## ⚙️ How to Run
-1. Clone the repository: `git clone [repository-url]`
+1. Clone the repository: `git clone [(https://github.com/SaadMostafa10/OutfitAI)]`
 2. Configure your database string in `appsettings.json`.
 3. Run migrations: `dotnet ef database update`.
 4. Run the project and access Swagger via `/swagger`.
