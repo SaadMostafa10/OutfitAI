@@ -13,7 +13,7 @@
 * **Optimized Data Retrieval:** Implemented **Pagination** and **Filtering** for history and product catalogs to ensure high performance and low latency.
 
 ## 🛠️ Technical Stack & Architecture
-* **Backend:** ASP.NET Core Web API (.NET 8/9).
+* **Backend:** ASP.NET Core Web API (.NET 8).
 * **Architecture:** **Onion Architecture** (Clean Architecture) for decoupled and testable code.
 * **Patterns:** Unit of Work, Generic Repository, and Specification Patterns.
 * **Security:** JWT (JSON Web Tokens) & Microsoft Identity.
