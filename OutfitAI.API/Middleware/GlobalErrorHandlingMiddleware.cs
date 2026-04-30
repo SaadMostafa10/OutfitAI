@@ -1,6 +1,7 @@
 ﻿using Domain.Exceptions;
 using Domain.Exceptions.BadRequest.Outfit;
 using Domain.Exceptions.NotFound;
+using Domain.Exceptions.NotFound.Outfit;
 using Shared.Dtos.AuthDtos;
 
 namespace OutfitAI.API.Middleware
@@ -53,8 +54,12 @@ namespace OutfitAI.API.Middleware
 
                     OutfitImagesRequiredException => StatusCodes.Status400BadRequest,
                     InvalidImageFileException => StatusCodes.Status400BadRequest,
-                   
-                     
+
+                    Outfitalreadysaved => StatusCodes.Status400BadRequest,
+
+                    
+
+
                     _ => StatusCodes.Status500InternalServerError
                 };
 

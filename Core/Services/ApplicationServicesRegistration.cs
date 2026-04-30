@@ -32,6 +32,7 @@ namespace Services
             services.AddHttpClient<IOutfitService, OutfitService>();
             services.AddScoped<IUserProfileService, UserProfileService>();
             services.AddScoped<IUrlService, Services.UrlService.UrlService>();
+            services.AddScoped<IRecommendationService, RecommendationService>();
             return services;
         }
     }

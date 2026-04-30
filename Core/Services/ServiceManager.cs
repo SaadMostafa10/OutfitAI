@@ -17,10 +17,14 @@ namespace Services
     public class ServiceManager(
          IAuthService authService,
          IOutfitService outfitService,
-         IUserProfileService userProfileService) : IServiceManager 
+         IUserProfileService userProfileService,
+         IRecommendationService recommendationService) : IServiceManager 
+
+        
     {
         public IAuthService AuthService { get; } = authService;
         public IOutfitService OutfitService { get; } = outfitService;
         public IUserProfileService UserProfileService { get; } = userProfileService;
+        public IRecommendationService RecommendationService { get; } = recommendationService;
     }
 }
