@@ -35,7 +35,10 @@ namespace Persistance
                 _repositories.Add(type, repositoryInstance);
             }
 
-            return (IGenericRepository<TEntity>)_repositories[type]!;
+            var x = (IGenericRepository<TEntity>)_repositories[type]!;
+            return x;
+
+
         }
 
         public async Task<int> CompleteAsync()

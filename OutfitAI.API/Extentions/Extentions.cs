@@ -1,4 +1,5 @@
 ﻿//using Domain.Contracts;
+using Domain.Contracts;
 using Domain.Models.Identity;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
@@ -12,6 +13,7 @@ using Services;
 using Services.Abstractions.Outfit;
 using Services.Outfit;
 using System.Text;
+
 namespace OutfitAI.API.Extentions
 {
     public static class Extentions
@@ -110,11 +112,16 @@ namespace OutfitAI.API.Extentions
         // TO DO 
         // private static IServiceCollection ConfigureServices()
 
-        public static WebApplication ConfigureMiddlewares(this WebApplication app)
+        public static async Task<WebApplication> ConfigureMiddlewaresAsync(this WebApplication app)
         {
-            
 
-            
+            // Ask CLR To Create Scope To Get Object From IDbIntializer To Intialize Db
+            #region Intializar Db
+            using var Scope = app.Services.CreateScope();
+            var dbIntializer = Scope.ServiceProvider.GetRequiredService<IDbIntializer>(); // Ask CLr Create Object From IDbIntializer
+            await dbIntializer.InitializeAsync(); // Call Method To Intialize Db
+            #endregion
+
 
             app.UseSwagger();
             app.UseSwaggerUI();

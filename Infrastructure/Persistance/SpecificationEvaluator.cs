@@ -1,4 +1,5 @@
 ﻿using Domain.Contracts;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,18 +15,36 @@ namespace Persistance
         {
             var query = inputQuery;
 
+
             if (spec.Criteria != null)
                 query = query.Where(spec.Criteria);
 
-            if (spec.OrderByDescending != null)
+
+            if (spec.OrderBy is not null)
+            {
+                query = query.OrderBy(spec.OrderBy);
+
+                if (spec.ThenBy is not null)
+                    query = ((IOrderedQueryable<TEntity>)query).ThenBy(spec.ThenBy);
+            }
+            else if (spec.OrderByDescending is not null)
+            {
                 query = query.OrderByDescending(spec.OrderByDescending);
+
+                if (spec.ThenBy is not null)
+                    query = ((IOrderedQueryable<TEntity>)query).ThenBy(spec.ThenBy);
+            }
+
 
             if (spec.IsPagination)
             {
                 query = query.Skip(spec.Skip).Take(spec.Take);
             }
 
+            query = spec.Includes.Aggregate(query, (query, includeExpresstion) => query.Include(includeExpresstion));
+
             return query;
         }
     }
+
 }

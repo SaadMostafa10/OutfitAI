@@ -9,11 +9,15 @@ namespace Domain.Contracts
 {
     public interface ISpecifications<TEntity>
     {
-        // Filter condition
-        Expression<Func<TEntity, bool>> Criteria { get; set; }
+        List<Expression<Func<TEntity, object>>> Includes { get; set; }
+        Expression<Func<TEntity, bool>>? Criteria { get; set; }
+
 
         // Sorting newest to oldest
-        Expression<Func<TEntity, object>> OrderByDescending { get; set; }
+        Expression<Func<TEntity, Object>>? OrderBy { get; set; }
+        Expression<Func<TEntity, object>>? OrderByDescending { get; set; }
+        Expression<Func<TEntity, object>>? ThenBy { get; set; }
+
         int Skip { get; set; }
         int Take { get; set; }
         bool IsPagination { get; set; }
