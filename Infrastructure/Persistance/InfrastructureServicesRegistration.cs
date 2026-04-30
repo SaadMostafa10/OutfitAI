@@ -5,6 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Persistance.Identity;
 using Persistance.Repositories;
 using Services;
+using Services.Abstractions.Outfit;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,7 +21,7 @@ namespace Persistance
             IConfiguration configuration
             )
         {
-
+             
             services.AddDbContext<OutfitIdentityDbContext>(options =>
             {
                 //options.UseSqlServer(builder.Configuration["ConnectionStrings:DefaultConnection"]);
@@ -38,6 +39,8 @@ namespace Persistance
             // 2. Register the Generic Repository (Note the typeof syntax for open generics)
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 
+            services.AddScoped<IDbIntializer, DbIntializer>();
+             
 
             return services;
         }

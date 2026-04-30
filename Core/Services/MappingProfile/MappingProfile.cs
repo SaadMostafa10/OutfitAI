@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Domain.Models.Identity;
 using Domain.Models.Outfit;
+using Domain.Models.Outfit.outfits_recommendation;
 using Shared.Dtos.OutfitDtos;
 using System;
 using System.Collections.Generic;
@@ -72,8 +73,13 @@ namespace Services.MappingProfile
             CreateMap<AppUser, ProfileDto>()
                 .ForMember(d => d.FullName, s => s.MapFrom(src => src.FullName ?? src.UserName));
 
+            //4. Outfit Recommendations Mapping
+            CreateMap<OutfitRecommendationsDto, OutfitRecommendations>().ReverseMap();
+
+            CreateMap<UserSavedOutfit, SavedOutfitResponseDto>()
+                .ForMember(dest => dest.Outfit, opt => opt.MapFrom(src => src.Outfit)); 
         }
-    
+
         private static Dictionary<string, string>? DeserializeReplacements(string? json)
         {
             if (string.IsNullOrEmpty(json))

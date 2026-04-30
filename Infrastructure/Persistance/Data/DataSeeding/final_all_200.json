@@ -1,0 +1,3961 @@
+[
+  {
+    "id": "1",
+    "title": "Urban Camo Cargo Streetwear Set",
+    "gender": "male",
+    "category": "semi-formal",
+    "images": [
+      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=800&q=80"
+    ],
+    "description": "Bold camo cargo pants paired with a black graphic hoodie. This streetwear combo channels urban energy with oversized pockets and a relaxed silhouette.",
+    "aiScore": 8.7,
+    "tags": [
+      "camo",
+      "cargo",
+      "hoodie",
+      "streetwear",
+      "urban",
+      "oversized",
+      "graphic"
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Beige Linen Summer Casual Look",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1506634572416-48cdfe530110?w=800&q=80"
+    ],
+    "description": "Relaxed beige linen trousers matched with a clean white linen shirt. Ideal for warm-weather outings, this breathable ensemble radiates effortless summer style.",
+    "aiScore": 8.5,
+    "tags": [
+      "linen",
+      "beige",
+      "summer",
+      "casual",
+      "relaxed",
+      "breathable",
+      "minimalist"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "All-Black Streetwear Layered Outfit",
+    "gender": "male",
+    "category": "formal",
+    "images": [
+      "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=800&q=80"
+    ],
+    "description": "A head-to-toe black layered streetwear look featuring a longline tee, black joggers, and a matte bomber jacket. Minimal branding with maximum impact.",
+    "aiScore": 9.0,
+    "tags": [
+      "all-black",
+      "layered",
+      "bomber",
+      "joggers",
+      "streetwear",
+      "monochrome",
+      "urban"
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Navy Blazer Slim Trousers Smart Look",
+    "gender": "male",
+    "category": "semi-formal",
+    "images": [
+      "https://images.unsplash.com/photo-1741709845968-c42e2c0dbe1d?w=600&auto=format&fit=crop&q=60"
+    ],
+    "description": "A sharp navy blazer paired with slim-fit trousers and a white dress shirt creates a polished semi-formal silhouette. Perfect for business casual environments and evening social events.",
+    "aiScore": 8.4,
+    "tags": [
+      "navy",
+      "blazer",
+      "slim-trousers",
+      "dress-shirt",
+      "smart-casual",
+      "business",
+      "menswear"
+    ]
+  },
+  {
+    "id": "5",
+    "title": "Burgundy Velvet Blazer Evening Look",
+    "gender": "male",
+    "category": "formal",
+    "images": [
+      "https://images.unsplash.com/photo-1600091166971-7f9faad6c1e2?w=800&q=80"
+    ],
+    "description": "A luxurious burgundy velvet blazer worn over a black turtleneck and slim black trousers. An elegant evening outfit that makes a statement at cocktail parties.",
+    "aiScore": 9.4,
+    "tags": [
+      "velvet",
+      "burgundy",
+      "blazer",
+      "turtleneck",
+      "evening",
+      "cocktail",
+      "luxury"
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Navy Blazer Slim Trousers Smart Look",
+    "gender": "male",
+    "category": "semi-formal",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1661377121278-fb35edeabb03?w=600&auto=format&fit=crop&q=60"
+    ],
+    "description": "A sharp navy blazer paired with slim-fit trousers and a white dress shirt creates a polished semi-formal silhouette. Perfect for business casual environments and evening social events.",
+    "aiScore": 8.4,
+    "tags": [
+      "navy",
+      "blazer",
+      "slim-trousers",
+      "dress-shirt",
+      "smart-casual",
+      "business",
+      "menswear"
+    ]
+  },
+  {
+    "id": "7",
+    "title": "White Three-Piece Wedding Suit",
+    "gender": "male",
+    "category": "formal",
+    "images": [
+      "https://images.unsplash.com/photo-1617137968427-85924c800a22?w=800&q=80"
+    ],
+    "description": "An immaculate ivory three-piece suit featuring a single-breasted jacket, matching waistcoat, and tapered trousers. A showstopping choice for weddings and black-tie celebrations.",
+    "aiScore": 9.0,
+    "tags": [
+      "white",
+      "three-piece",
+      "wedding",
+      "waistcoat",
+      "formal",
+      "ivory",
+      "groom"
+    ]
+  },
+  {
+    "id": "8",
+    "title": "Light Grey Suit and White Shirt",
+    "gender": "male",
+    "category": "formal",
+    "images": [
+      "https://images.unsplash.com/photo-1594938291221-94f18cbb5660?w=800"
+    ],
+    "description": "A tailored light grey two-piece suit over a crisp white button-down shirt.",
+    "aiScore": 9.4,
+    "tags": [
+      "suit",
+      "grey",
+      "wedding",
+      "formal"
+    ]
+  },
+  {
+    "id": "9",
+    "title": "Black Compression Gym Outfit",
+    "gender": "male",
+    "category": "sports",
+    "images": [
+      "https://images.unsplash.com/photo-1549476464-37392f717541?w=800&q=80"
+    ],
+    "description": "All-black compression leggings and a fitted sleeveless muscle tee for serious gym sessions. Four-way stretch fabric provides unrestricted range of motion during heavy lifting.",
+    "aiScore": 8.2,
+    "tags": [
+      "compression",
+      "gym",
+      "black",
+      "muscle-tee",
+      "lifting",
+      "fitness",
+      "performance"
+    ]
+  },
+  {
+    "id": "10",
+    "title": "Navy Blazer Slim Trousers Smart Look",
+    "gender": "male",
+    "category": "semi-formal",
+    "images": [
+      "https://images.unsplash.com/photo-1609789250810-8e04e11081ac?w=600&auto=format&fit=crop&q=60"
+    ],
+    "description": "A sharp navy blazer paired with slim-fit trousers and a white dress shirt creates a polished semi-formal silhouette. Perfect for business casual environments and evening social events.",
+    "aiScore": 8.4,
+    "tags": [
+      "navy",
+      "blazer",
+      "slim-trousers",
+      "dress-shirt",
+      "smart-casual",
+      "business",
+      "menswear"
+    ]
+  },
+  {
+    "id": "11",
+    "title": "Navy Blazer Slim Trousers Smart Look",
+    "gender": "male",
+    "category": "semi-formal",
+    "images": [
+      "https://images.unsplash.com/photo-1644746448901-df1025c053a1?w=600&auto=format&fit=crop&q=60"
+    ],
+    "description": "A sharp navy blazer paired with slim-fit trousers and a white dress shirt creates a polished semi-formal silhouette. Perfect for business casual environments and evening social events.",
+    "aiScore": 8.4,
+    "tags": [
+      "navy",
+      "blazer",
+      "slim-trousers",
+      "dress-shirt",
+      "smart-casual",
+      "business",
+      "menswear"
+    ]
+  },
+  {
+    "id": "12",
+    "title": "Royal Blue Slim Fit Formal Suit",
+    "gender": "male",
+    "category": "formal",
+    "images": [
+      "https://images.unsplash.com/photo-1620012253295-c15cc3e65df4?w=800&q=80"
+    ],
+    "description": "A striking royal blue slim fit suit with a notch lapel and single-button closure, paired with a white pocket square. A bold formal choice for weddings and upscale events.",
+    "aiScore": 9.3,
+    "tags": [
+      "royal-blue",
+      "slim-fit",
+      "suit",
+      "formal",
+      "wedding",
+      "bold",
+      "menswear"
+    ]
+  },
+  {
+    "id": "13",
+    "title": "Yellow Hi-Vis Running Jacket Outfit",
+    "gender": "male",
+    "category": "sports",
+    "images": [
+      "https://images.unsplash.com/photo-1532029837206-abbe2b7620e3?w=800&q=80"
+    ],
+    "description": "A high-visibility yellow running jacket with black panels and reflective strips, paired with black running tights. Engineered for early morning and evening runs in low-light conditions.",
+    "aiScore": 8.4,
+    "tags": [
+      "running",
+      "hi-vis",
+      "yellow",
+      "jacket",
+      "reflective",
+      "performance",
+      "sports"
+    ]
+  },
+  {
+    "id": "14",
+    "title": "Brown Suede Chelsea Boot Smart Casual",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1512353087810-25dfcd100962?w=800&q=80"
+    ],
+    "description": "Camel chinos paired with a white Oxford shirt and brown suede Chelsea boots. A smart casual outfit that transitions seamlessly from office Fridays to weekend brunches.",
+    "aiScore": 8.7,
+    "tags": [
+      "suede",
+      "chelsea-boot",
+      "camel",
+      "chinos",
+      "smart-casual",
+      "oxford",
+      "weekend"
+    ]
+  },
+  {
+    "id": "15",
+    "title": "Cycling Jersey and Bib Shorts",
+    "gender": "male",
+    "category": "sports",
+    "images": [
+      "https://images.unsplash.com/photo-1528629297340-d1d466945dc5?w=800"
+    ],
+    "description": "High-visibility yellow cycling jersey and tight black bib shorts.",
+    "aiScore": 8.1,
+    "tags": [
+      "cycling",
+      "jersey",
+      "shorts",
+      "sports"
+    ]
+  },
+  {
+    "id": "16",
+    "title": "Black Leather Biker Jacket Streetwear",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1548126032-079a0fb0099d?w=800&q=80"
+    ],
+    "description": "A classic black leather moto jacket with asymmetric zip and silver hardware, worn over a band tee and black skinny jeans. An enduring streetwear icon with rebellious edge.",
+    "aiScore": 9.2,
+    "tags": [
+      "leather",
+      "biker",
+      "moto-jacket",
+      "black",
+      "streetwear",
+      "silver-hardware",
+      "edgy"
+    ]
+  },
+  {
+    "id": "17",
+    "title": "Sage Green Linen Casual Summer Set",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1516826957135-700dedea698c?w=800&q=80"
+    ],
+    "description": "Matching sage green linen shirt and trousers worn as a relaxed summer co-ord set. Minimal styling with white canvas sneakers completes this breezy casual warm-weather outfit.",
+    "aiScore": 8.5,
+    "tags": [
+      "linen",
+      "sage-green",
+      "co-ord",
+      "summer",
+      "casual",
+      "matching-set",
+      "minimal"
+    ]
+  },
+  {
+    "id": "18",
+    "title": "Acid Wash Streetwear Hoodie Set",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1571945153237-4929e783af4a?w=800&q=80"
+    ],
+    "description": "An acid-washed grey pullover hoodie matched with black distressed joggers. The worn-in texture and loose silhouette define laid-back streetwear culture with an authentic feel.",
+    "aiScore": 8.7,
+    "tags": [
+      "acid-wash",
+      "hoodie",
+      "joggers",
+      "distressed",
+      "streetwear",
+      "relaxed",
+      "authentic"
+    ]
+  },
+  {
+    "id": "19",
+    "title": "Navy Blazer Slim Trousers Smart Look",
+    "gender": "male",
+    "category": "semi-formal",
+    "images": [
+      "https://images.unsplash.com/photo-1732384069249-fb208dcef49c?w=600&auto=format&fit=crop&q=60"
+    ],
+    "description": "A sharp navy blazer paired with slim-fit trousers and a white dress shirt creates a polished semi-formal silhouette. Perfect for business casual environments and evening social events.",
+    "aiScore": 8.4,
+    "tags": [
+      "navy",
+      "blazer",
+      "slim-trousers",
+      "dress-shirt",
+      "smart-casual",
+      "business",
+      "menswear"
+    ]
+  },
+  {
+    "id": "20",
+    "title": "White Tennis Polo Sports Outfit",
+    "gender": "male",
+    "category": "sports",
+    "images": [
+      "https://images.unsplash.com/photo-1622279457486-62dcc4a431d6?w=800&q=80"
+    ],
+    "description": "A classic white tennis polo with navy trim details and matching white tennis shorts. Lightweight pique fabric keeps players cool while the traditional silhouette honors court heritage.",
+    "aiScore": 8.2,
+    "tags": [
+      "tennis",
+      "polo",
+      "white",
+      "navy",
+      "court",
+      "classic",
+      "pique"
+    ]
+  },
+  {
+    "id": "21",
+    "title": "Navy Blazer Slim Trousers Smart Look",
+    "gender": "male",
+    "category": "semi-formal",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1760486691966-65d3ea983308?w=600&auto=format&fit=crop&q=60"
+    ],
+    "description": "A sharp navy blazer paired with slim-fit trousers and a white dress shirt creates a polished semi-formal silhouette. Perfect for business casual environments and evening social events.",
+    "aiScore": 8.4,
+    "tags": [
+      "navy",
+      "blazer",
+      "slim-trousers",
+      "dress-shirt",
+      "smart-casual",
+      "business",
+      "menswear"
+    ]
+  },
+  {
+    "id": "22",
+    "title": "Navy Blazer Slim Trousers Smart Look",
+    "gender": "male",
+    "category": "semi-formal",
+    "images": [
+      "https://images.unsplash.com/photo-1667842246803-b09cd23f6990?w=600&auto=format&fit=crop&q=60"
+    ],
+    "description": "A sharp navy blazer paired with slim-fit trousers and a white dress shirt creates a polished semi-formal silhouette. Perfect for business casual environments and evening social events.",
+    "aiScore": 8.4,
+    "tags": [
+      "navy",
+      "blazer",
+      "slim-trousers",
+      "dress-shirt",
+      "smart-casual",
+      "business",
+      "menswear"
+    ]
+  },
+  {
+    "id": "23",
+    "title": "Navy Blazer Slim Trousers Smart Look",
+    "gender": "male",
+    "category": "semi-formal",
+    "images": [
+      "https://images.unsplash.com/photo-1622467501726-a07fa7f88a4c?w=600&auto=format&fit=crop&q=60"
+    ],
+    "description": "A sharp navy blazer paired with slim-fit trousers and a white dress shirt creates a polished semi-formal silhouette. Perfect for business casual environments and evening social events.",
+    "aiScore": 8.4,
+    "tags": [
+      "navy",
+      "blazer",
+      "slim-trousers",
+      "dress-shirt",
+      "smart-casual",
+      "business",
+      "menswear"
+    ]
+  },
+  {
+    "id": "24",
+    "title": "Navy Blazer Slim Trousers Smart Look",
+    "gender": "male",
+    "category": "semi-formal",
+    "images": [
+      "https://images.unsplash.com/photo-1643930757729-7ca9f0060d4b?w=600&auto=format&fit=crop&q=60"
+    ],
+    "description": "A sharp navy blazer paired with slim-fit trousers and a white dress shirt creates a polished semi-formal silhouette. Perfect for business casual environments and evening social events.",
+    "aiScore": 8.4,
+    "tags": [
+      "navy",
+      "blazer",
+      "slim-trousers",
+      "dress-shirt",
+      "smart-casual",
+      "business",
+      "menswear"
+    ]
+  },
+  {
+    "id": "25",
+    "title": "Olive Chino Smart Casual Outfit",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=800&q=80"
+    ],
+    "description": "Olive slim chino trousers paired with a navy and white striped Breton tee. A classic French-inspired casual combination that channels relaxed European style.",
+    "aiScore": 8.6,
+    "tags": [
+      "chino",
+      "olive",
+      "breton",
+      "striped-tee",
+      "smart-casual",
+      "french",
+      "european"
+    ]
+  },
+  {
+    "id": "26",
+    "title": "Grey Herringbone Tweed Blazer Formal",
+    "gender": "male",
+    "category": "formal",
+    "images": [
+      "https://images.unsplash.com/photo-1610652492500-ded49ceeb378?w=800&q=80"
+    ],
+    "description": "A grey herringbone tweed blazer with brown elbow patches, worn with white dress trousers and a matching pocket square. Academic and distinguished formal dressing for literary events.",
+    "aiScore": 9.1,
+    "tags": [
+      "herringbone",
+      "tweed",
+      "blazer",
+      "elbow-patches",
+      "formal",
+      "academic",
+      "distinguished"
+    ]
+  },
+  {
+    "id": "27",
+    "title": "Burgundy Formal Dinner Jacket",
+    "gender": "male",
+    "category": "semi-formal",
+    "images": [
+      "https://images.unsplash.com/photo-1621072156002-e2fccdc0b176?w=800&q=80"
+    ],
+    "description": "A burgundy dinner jacket with black satin shawl lapels, styled with black dress trousers and a white formal shirt. An exceptional alternative to the classic black tuxedo for formal evenings.",
+    "aiScore": 9.1,
+    "tags": [
+      "dinner-jacket",
+      "burgundy",
+      "shawl-lapel",
+      "formal",
+      "satin",
+      "alternative-tuxedo",
+      "evening"
+    ]
+  },
+  {
+    "id": "28",
+    "title": "Black Tech Streetwear Cargo Outfit",
+    "gender": "male",
+    "category": "formal",
+    "images": [
+      "https://images.unsplash.com/photo-1617127365659-c47fa864d8bc?w=800&q=80"
+    ],
+    "description": "A black techwear cargo outfit featuring articulated trousers with utility straps, a black tactical vest, and a base-layer long-sleeve tee. Futuristic streetwear for urban adventurers.",
+    "aiScore": 9.1,
+    "tags": [
+      "techwear",
+      "cargo",
+      "tactical-vest",
+      "black",
+      "futuristic",
+      "streetwear",
+      "utility"
+    ]
+  },
+  {
+    "id": "29",
+    "title": "Navy Blazer Chino Smart Formal Look",
+    "gender": "male",
+    "category": "semi-formal",
+    "images": [
+      "https://images.unsplash.com/photo-1593030761757-71fae45fa0e7?w=800&q=80"
+    ],
+    "description": "A structured navy blazer paired with cream chinos and a white Oxford shirt. A timeless semi-formal look that works effortlessly for business casual environments and formal daytime events.",
+    "aiScore": 9.1,
+    "tags": [
+      "navy-blazer",
+      "chino",
+      "cream",
+      "formal",
+      "business-casual",
+      "oxford",
+      "timeless"
+    ]
+  },
+  {
+    "id": "30",
+    "title": "Orange Varsity Streetwear Hoodie",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1578681994506-b8f463449011?w=800&q=80"
+    ],
+    "description": "An orange heavyweight varsity hoodie with black kangaroo pocket and white drawstrings, worn with black cargo trousers. School-spirit meets street culture in this vibrant casual statement.",
+    "aiScore": 8.7,
+    "tags": [
+      "varsity",
+      "hoodie",
+      "orange",
+      "heavyweight",
+      "streetwear",
+      "cargo",
+      "bold"
+    ]
+  },
+  {
+    "id": "31",
+    "title": "Navy Blazer Slim Trousers Smart Look",
+    "gender": "male",
+    "category": "semi-formal",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1661328047229-aea8cde84a31?w=600&auto=format&fit=crop&q=60"
+    ],
+    "description": "A sharp navy blazer paired with slim-fit trousers and a white dress shirt creates a polished semi-formal silhouette. Perfect for business casual environments and evening social events.",
+    "aiScore": 8.4,
+    "tags": [
+      "navy",
+      "blazer",
+      "slim-trousers",
+      "dress-shirt",
+      "smart-casual",
+      "business",
+      "menswear"
+    ]
+  },
+  {
+    "id": "32",
+    "title": "Olive Green Utility Vest Streetwear",
+    "gender": "male",
+    "category": "formal",
+    "images": [
+      "https://images.unsplash.com/photo-1617127365659-c47fa864d8bc?w=800&q=80"
+    ],
+    "description": "An olive green multi-pocket utility vest layered over a black longline tee and black slim cargo pants. Tactical aesthetics blended with urban streetwear for a functional yet bold outfit.",
+    "aiScore": 8.7,
+    "tags": [
+      "utility-vest",
+      "olive",
+      "tactical",
+      "streetwear",
+      "cargo",
+      "layered",
+      "bold"
+    ]
+  },
+  {
+    "id": "33",
+    "title": "Navy Blazer Slim Trousers Smart Look",
+    "gender": "male",
+    "category": "semi-formal",
+    "images": [
+      "https://images.unsplash.com/photo-1645466478772-99f652533d44?w=600&auto=format&fit=crop&q=60"
+    ],
+    "description": "A sharp navy blazer paired with slim-fit trousers and a white dress shirt creates a polished semi-formal silhouette. Perfect for business casual environments and evening social events.",
+    "aiScore": 8.4,
+    "tags": [
+      "navy",
+      "blazer",
+      "slim-trousers",
+      "dress-shirt",
+      "smart-casual",
+      "business",
+      "menswear"
+    ]
+  },
+  {
+    "id": "34",
+    "title": "Tweed Winter Blazer",
+    "gender": "male",
+    "category": "formal",
+    "images": [
+      "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800"
+    ],
+    "description": "Warm brown tweed blazer tailored for cold weather formal events.",
+    "aiScore": 8.8,
+    "tags": [
+      "tweed",
+      "winter",
+      "blazer",
+      "formal"
+    ]
+  },
+  {
+    "id": "35",
+    "title": "Three-Piece Grey Pinstripe Suit",
+    "gender": "male",
+    "category": "formal",
+    "images": [
+      "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=800"
+    ],
+    "description": "Classic three-piece pinstripe suit with a matching waistcoat.",
+    "aiScore": 9.0,
+    "tags": [
+      "pinstripe",
+      "waistcoat",
+      "professional",
+      "formal"
+    ]
+  },
+  {
+    "id": "36",
+    "title": "Velvet Dinner Jacket",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1505022610485-0249ba5b3675?w=800"
+    ],
+    "description": "Luxurious burgundy velvet dinner jacket for black-tie events.",
+    "aiScore": 9.3,
+    "tags": [
+      "velvet",
+      "tuxedo",
+      "black-tie",
+      "formal"
+    ]
+  },
+  {
+    "id": "37",
+    "title": "Tracksuit Co-ord",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=800"
+    ],
+    "description": "Matching royal blue track jacket and pants with white side stripes.",
+    "aiScore": 8.4,
+    "tags": [
+      "tracksuit",
+      "matching",
+      "athletic",
+      "sports"
+    ]
+  },
+  {
+    "id": "38",
+    "title": "Casual Summer Outfit",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://tse4.mm.bing.net/th/id/OIP.EaOJAYmi7g7595H1WUMzCAHaHa?pid=ImgDet&w=187&h=187&c=7&dpr=1.3&o=7&rm=3"
+    ],
+    "description": "A fresh and breathable summer outfit designed for maximum comfort during hot days. This look combines lightweight fabrics with a relaxed fit, making it perfect for daily outings, casual meetups, or a walk by the beach. The clean color palette adds a refreshing vibe while keeping the style simple, modern, and effortlessly cool.",
+    "aiScore": 8.5,
+    "tags": [
+      "cool",
+      "daily",
+      "simple"
+    ]
+  },
+  {
+    "id": "39",
+    "title": "Formal Classic Suit",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://i.pinimg.com/1200x/69/d3/3b/69d33b82b0ec0b0f7fee15010417e870.jpg"
+    ],
+    "description": "A timeless formal suit crafted for elegance and confidence. This outfit is perfect for business meetings, formal events, and special occasions where making a strong impression matters. The classic color combination and tailored fit provide a sharp, polished look that never goes out of style.",
+    "aiScore": 9.2,
+    "tags": [
+      "elegant",
+      "office",
+      "classic"
+    ]
+  },
+  {
+    "id": "40",
+    "title": "Winter Cozy Look",
+    "gender": "female",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1544441893-675973e31985"
+    ],
+    "description": "Warm and cozy outfit perfect for cold weather.",
+    "aiScore": 8.3,
+    "tags": [
+      "warm",
+      "cozy"
+    ]
+  },
+  {
+    "id": "41",
+    "title": "Chambray Shirt and Cargo Shorts",
+    "gender": "male",
+    "category": "formal",
+    "images": [
+      "https://images.unsplash.com/photo-1504593811423-6dd665756598?w=800"
+    ],
+    "description": "Lightweight blue chambray shirt and tan casual cargo shorts.",
+    "aiScore": 8.6,
+    "tags": [
+      "chambray",
+      "shorts",
+      "summer",
+      "casual"
+    ]
+  },
+  {
+    "id": "42",
+    "title": "Casual Summer Outfit",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1520975916090-3105956dac38"
+    ],
+    "description": "Light and comfortable outfit for summer days.",
+    "aiScore": 8.5,
+    "tags": [
+      "cool",
+      "daily",
+      "simple"
+    ]
+  },
+  {
+    "id": "43",
+    "title": "Henley Shirt and Denim Jeans",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1550246140-5119ae4790b8?w=800"
+    ],
+    "description": "Olive green long-sleeve henley shirt paired with classic blue denim jeans.",
+    "aiScore": 8.1,
+    "tags": [
+      "henley",
+      "jeans",
+      "relaxed",
+      "casual"
+    ]
+  },
+  {
+    "id": "44",
+    "title": "Dark Red Longline Hoodie Black Cargo Full Streetwear",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1609873814058-a8928924184a?w=800&q=80"
+    ],
+    "description": "A complete streetwear outfit with a dark red longline pullover hoodie, black wide-leg cargo pants, white inner tee, and black high-top boots. Dramatic silhouette and moody colorway for urban streets.",
+    "aiScore": 8.8,
+    "tags": [
+      "longline-hoodie",
+      "dark-red",
+      "wide-leg-cargo",
+      "high-top-boots",
+      "full-outfit",
+      "streetwear",
+      "dramatic"
+    ]
+  },
+  {
+    "id": "45",
+    "title": "Charcoal Slim Fit Blazer Smart Look",
+    "gender": "male",
+    "category": "semi-formal",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1661404104513-5fd0e3ccd747?w=1000&auto=format&fit=crop&q=60"
+    ],
+    "description": "A sharp charcoal slim-fit blazer paired with tailored trousers and a crisp white shirt. An ideal semi-formal outfit for business casual settings and evening events.",
+    "aiScore": 8.4,
+    "tags": [
+      "blazer",
+      "slim-fit",
+      "charcoal",
+      "tailored",
+      "smart-casual",
+      "business",
+      "menswear"
+    ]
+  },
+  {
+    "id": "46",
+    "title": "Charcoal Slim Fit Blazer Smart Look",
+    "gender": "male",
+    "category": "semi-formal",
+    "images": [
+      "https://images.unsplash.com/photo-1622462716011-3e273eedcc9b?w=1000&auto=format&fit=crop&q=60"
+    ],
+    "description": "A sharp charcoal slim-fit blazer paired with tailored trousers and a crisp white shirt. An ideal semi-formal outfit for business casual settings and evening events.",
+    "aiScore": 8.4,
+    "tags": [
+      "blazer",
+      "slim-fit",
+      "charcoal",
+      "tailored",
+      "smart-casual",
+      "business",
+      "menswear"
+    ]
+  },
+  {
+    "id": "47",
+    "title": "Charcoal Slim Fit Blazer Smart Look",
+    "gender": "male",
+    "category": "semi-formal",
+    "images": [
+      "https://images.unsplash.com/photo-1763610452226-cee98aa00880?w=1000&auto=format&fit=crop&q=60"
+    ],
+    "description": "A sharp charcoal slim-fit blazer paired with tailored trousers and a crisp white shirt. An ideal semi-formal outfit for business casual settings and evening events.",
+    "aiScore": 8.4,
+    "tags": [
+      "blazer",
+      "slim-fit",
+      "charcoal",
+      "tailored",
+      "smart-casual",
+      "business",
+      "menswear"
+    ]
+  },
+  {
+    "id": "48",
+    "title": "Charcoal Slim Fit Blazer Smart Look",
+    "gender": "male",
+    "category": "semi-formal",
+    "images": [
+      "https://media.istockphoto.com/id/1174510402/photo/handsome-man-in-casual-suit.webp?a=1&b=1&s=612x612&w=0&k=20&c=8S96OOXl_Q0zub5beu01Z6Vi4itVFQBafsVQxfLLGxU="
+    ],
+    "description": "A sharp charcoal slim-fit blazer paired with tailored trousers and a crisp white shirt. An ideal semi-formal outfit for business casual settings and evening events.",
+    "aiScore": 8.4,
+    "tags": [
+      "blazer",
+      "slim-fit",
+      "charcoal",
+      "tailored",
+      "smart-casual",
+      "business",
+      "menswear"
+    ]
+  },
+  {
+    "id": "49",
+    "title": "Charcoal Slim Fit Blazer Smart Look",
+    "gender": "male",
+    "category": "semi-formal",
+    "images": [
+      "https://media.istockphoto.com/id/1335833832/photo/the-groom-is-preparing-to-meet-the-bride-elegant-man-in-a-suit-posing-in-the-studio-wedding.webp?a=1&b=1&s=612x612&w=0&k=20&c=p2NpvHm09HGDaneniudYE-DAKp6TCAHG4TVoBByE46A="
+    ],
+    "description": "A sharp charcoal slim-fit blazer paired with tailored trousers and a crisp white shirt. An ideal semi-formal outfit for business casual settings and evening events.",
+    "aiScore": 8.4,
+    "tags": [
+      "blazer",
+      "slim-fit",
+      "charcoal",
+      "tailored",
+      "smart-casual",
+      "business",
+      "menswear"
+    ]
+  },
+  {
+    "id": "50",
+    "title": "Charcoal Slim Fit Blazer Smart Look",
+    "gender": "male",
+    "category": "semi-formal",
+    "images": [
+      "https://media.istockphoto.com/id/1201429435/photo/man-trying-suit.webp?a=1&b=1&s=612x612&w=0&k=20&c=0qSvTKBOpUgdNTyTxuXva5WLp4Mnj6Z6_NrTxQMMfAs="
+    ],
+    "description": "A sharp charcoal slim-fit blazer paired with tailored trousers and a crisp white shirt. An ideal semi-formal outfit for business casual settings and evening events.",
+    "aiScore": 8.4,
+    "tags": [
+      "blazer",
+      "slim-fit",
+      "charcoal",
+      "tailored",
+      "smart-casual",
+      "business",
+      "menswear"
+    ]
+  },
+  {
+    "id": "51",
+    "title": "Charcoal Slim Fit Blazer Smart Look",
+    "gender": "male",
+    "category": "semi-formal",
+    "images": [
+      "https://images.unsplash.com/photo-1688198911740-77dde4d0c5d6?w=1000&auto=format&fit=crop&q=60"
+    ],
+    "description": "A sharp charcoal slim-fit blazer paired with tailored trousers and a crisp white shirt. An ideal semi-formal outfit for business casual settings and evening events.",
+    "aiScore": 8.4,
+    "tags": [
+      "blazer",
+      "slim-fit",
+      "charcoal",
+      "tailored",
+      "smart-casual",
+      "business",
+      "menswear"
+    ]
+  },
+  {
+    "id": "52",
+    "title": "Charcoal Slim Fit Blazer Smart Look",
+    "gender": "male",
+    "category": "semi-formal",
+    "images": [
+      "https://images.unsplash.com/photo-1609402122820-9cb32081a555?w=1000&auto=format&fit=crop&q=60"
+    ],
+    "description": "A sharp charcoal slim-fit blazer paired with tailored trousers and a crisp white shirt. An ideal semi-formal outfit for business casual settings and evening events.",
+    "aiScore": 8.4,
+    "tags": [
+      "blazer",
+      "slim-fit",
+      "charcoal",
+      "tailored",
+      "smart-casual",
+      "business",
+      "menswear"
+    ]
+  },
+  {
+    "id": "53",
+    "title": "Charcoal Slim Fit Blazer Smart Look",
+    "gender": "male",
+    "category": "semi-formal",
+    "images": [
+      "https://images.unsplash.com/photo-1532799643465-f7e1abab11e7?w=1000&auto=format&fit=crop&q=60"
+    ],
+    "description": "A sharp charcoal slim-fit blazer paired with tailored trousers and a crisp white shirt. An ideal semi-formal outfit for business casual settings and evening events.",
+    "aiScore": 8.4,
+    "tags": [
+      "blazer",
+      "slim-fit",
+      "charcoal",
+      "tailored",
+      "smart-casual",
+      "business",
+      "menswear"
+    ]
+  },
+  {
+    "id": "54",
+    "title": "Charcoal Slim Fit Blazer Smart Look",
+    "gender": "male",
+    "category": "semi-formal",
+    "images": [
+      "https://images.unsplash.com/photo-1763610452422-a24873594a0b?w=1000&auto=format&fit=crop&q=60"
+    ],
+    "description": "A sharp charcoal slim-fit blazer paired with tailored trousers and a crisp white shirt. An ideal semi-formal outfit for business casual settings and evening events.",
+    "aiScore": 8.4,
+    "tags": [
+      "blazer",
+      "slim-fit",
+      "charcoal",
+      "tailored",
+      "smart-casual",
+      "business",
+      "menswear"
+    ]
+  },
+  {
+    "id": "55",
+    "title": "Navy Blazer Slim Trousers Smart Look",
+    "gender": "male",
+    "category": "semi-formal",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1681822770153-ad7f6cd06c7c?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGNsb3RoZSUyMHNlbWlmb3JtYWwlMjBtYW58ZW58MHx8MHx8fDA%3D"
+    ],
+    "description": "A sharp navy blazer paired with slim-fit trousers and a white dress shirt creates a polished semi-formal silhouette. Perfect for business casual environments and evening social events.",
+    "aiScore": 8.4,
+    "tags": [
+      "navy",
+      "blazer",
+      "slim-trousers",
+      "dress-shirt",
+      "smart-casual",
+      "business",
+      "menswear"
+    ]
+  },
+  {
+    "id": "56",
+    "title": "Navy Blazer Slim Trousers Smart Look",
+    "gender": "male",
+    "category": "semi-formal",
+    "images": [
+      "https://media.istockphoto.com/id/1266144370/photo/suit-man-smart-casual-outfit-young-businessman-adjusting-collar-of-his-blue-wool-blazer-with.webp?a=1&b=1&s=612x612&w=0&k=20&c=qLZ-G18gL1ZyCYs0vfLnUNcrdWpzkdJZeQGsViWymFM="
+    ],
+    "description": "A sharp navy blazer paired with slim-fit trousers and a white dress shirt creates a polished semi-formal silhouette. Perfect for business casual environments and evening social events.",
+    "aiScore": 8.4,
+    "tags": [
+      "navy",
+      "blazer",
+      "slim-trousers",
+      "dress-shirt",
+      "smart-casual",
+      "business",
+      "menswear"
+    ]
+  },
+  {
+    "id": "57",
+    "title": "Navy Blazer Slim Trousers Smart Look",
+    "gender": "male",
+    "category": "semi-formal",
+    "images": [
+      "https://media.istockphoto.com/id/1194995943/photo/portrait-of-a-handsome-young-businessman-dressed-in-suit-isolated-over-gray-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=5Nq8HxXjnEaT5ON5JA8h07f-PhJfvLvCLEUo1OOcvMY="
+    ],
+    "description": "A sharp navy blazer paired with slim-fit trousers and a white dress shirt creates a polished semi-formal silhouette. Perfect for business casual environments and evening social events.",
+    "aiScore": 8.4,
+    "tags": [
+      "navy",
+      "blazer",
+      "slim-trousers",
+      "dress-shirt",
+      "smart-casual",
+      "business",
+      "menswear"
+    ]
+  },
+  {
+    "id": "58",
+    "title": "Navy Blazer Slim Trousers Smart Look",
+    "gender": "male",
+    "category": "semi-formal",
+    "images": [
+      "https://media.istockphoto.com/id/481248540/photo/handsome-guy.webp?a=1&b=1&s=612x612&w=0&k=20&c=rgM4Gwz2Od4nz9vZ1IPAce6ckGBlBc2T6LPSNcte44w="
+    ],
+    "description": "A sharp navy blazer paired with slim-fit trousers and a white dress shirt creates a polished semi-formal silhouette. Perfect for business casual environments and evening social events.",
+    "aiScore": 8.4,
+    "tags": [
+      "navy",
+      "blazer",
+      "slim-trousers",
+      "dress-shirt",
+      "smart-casual",
+      "business",
+      "menswear"
+    ]
+  },
+  {
+    "id": "59",
+    "title": "Navy Blazer Slim Trousers Smart Look",
+    "gender": "male",
+    "category": "semi-formal",
+    "images": [
+      "https://media.istockphoto.com/id/1055865734/photo/positive-male-in-shirt-holding-jackets.webp?a=1&b=1&s=612x612&w=0&k=20&c=QWMbps_GdHxUuhh7ZM9seH5MMDdROYO-PSL6fExLcWk="
+    ],
+    "description": "A sharp navy blazer paired with slim-fit trousers and a white dress shirt creates a polished semi-formal silhouette. Perfect for business casual environments and evening social events.",
+    "aiScore": 8.4,
+    "tags": [
+      "navy",
+      "blazer",
+      "slim-trousers",
+      "dress-shirt",
+      "smart-casual",
+      "business",
+      "menswear"
+    ]
+  },
+  {
+    "id": "60",
+    "title": "Navy Blazer Slim Trousers Smart Look",
+    "gender": "male",
+    "category": "semi-formal",
+    "images": [
+      "https://images.unsplash.com/photo-1581382575275-97901c2635b7?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWFufGVufDB8fDB8fHww"
+    ],
+    "description": "A sharp navy blazer paired with slim-fit trousers and a white dress shirt creates a polished semi-formal silhouette. Perfect for business casual environments and evening social events.",
+    "aiScore": 8.4,
+    "tags": [
+      "navy",
+      "blazer",
+      "slim-trousers",
+      "dress-shirt",
+      "smart-casual",
+      "business",
+      "menswear"
+    ]
+  },
+  {
+    "id": "61",
+    "title": "Navy Blazer Slim Trousers Smart Look",
+    "gender": "male",
+    "category": "semi-formal",
+    "images": [
+      "https://media.istockphoto.com/id/1059144716/photo/handsome-young-asian-man-wearing-smart-casual-clothes.webp?a=1&b=1&s=612x612&w=0&k=20&c=9m5eM_F4vux_aYXaoBPpxPZ_z2wEmmEgiSNv_1AgZS0="
+    ],
+    "description": "A sharp navy blazer paired with slim-fit trousers and a white dress shirt creates a polished semi-formal silhouette. Perfect for business casual environments and evening social events.",
+    "aiScore": 8.4,
+    "tags": [
+      "navy",
+      "blazer",
+      "slim-trousers",
+      "dress-shirt",
+      "smart-casual",
+      "business",
+      "menswear"
+    ]
+  },
+  {
+    "id": "62",
+    "title": "Navy Blazer Slim Trousers Smart Look",
+    "gender": "male",
+    "category": "semi-formal",
+    "images": [
+      "https://media.istockphoto.com/id/1149470929/photo/im-never-reluctant-when-making-moves-towards-success.webp?a=1&b=1&s=612x612&w=0&k=20&c=pVA4Xjdn5cZLCo0wPl95wbbMMRgafE44q4L-BxpSyUQ="
+    ],
+    "description": "A sharp navy blazer paired with slim-fit trousers and a white dress shirt creates a polished semi-formal silhouette. Perfect for business casual environments and evening social events.",
+    "aiScore": 8.4,
+    "tags": [
+      "navy",
+      "blazer",
+      "slim-trousers",
+      "dress-shirt",
+      "smart-casual",
+      "business",
+      "menswear"
+    ]
+  },
+  {
+    "id": "63",
+    "title": "Navy Blazer Slim Trousers Smart Look",
+    "gender": "male",
+    "category": "semi-formal",
+    "images": [
+      "https://media.istockphoto.com/id/855404916/photo/clothes-make-the-man.webp?a=1&b=1&s=612x612&w=0&k=20&c=ygJnwyv37cVQE6aDQe6b1VcBKMWJPF_LcPLvJeYduR0="
+    ],
+    "description": "A sharp navy blazer paired with slim-fit trousers and a white dress shirt creates a polished semi-formal silhouette. Perfect for business casual environments and evening social events.",
+    "aiScore": 8.4,
+    "tags": [
+      "navy",
+      "blazer",
+      "slim-trousers",
+      "dress-shirt",
+      "smart-casual",
+      "business",
+      "menswear"
+    ]
+  },
+  {
+    "id": "64",
+    "title": "Navy Blazer Slim Trousers Smart Look",
+    "gender": "male",
+    "category": "semi-formal",
+    "images": [
+      "https://media.istockphoto.com/id/641568866/photo/modern-man-with-a-bag.webp?a=1&b=1&s=612x612&w=0&k=20&c=RduxUX9R8eWKWreIXj4MrM1oImZG57ne0bsCIBL1gZM="
+    ],
+    "description": "A sharp navy blazer paired with slim-fit trousers and a white dress shirt creates a polished semi-formal silhouette. Perfect for business casual environments and evening social events.",
+    "aiScore": 8.4,
+    "tags": [
+      "navy",
+      "blazer",
+      "slim-trousers",
+      "dress-shirt",
+      "smart-casual",
+      "business",
+      "menswear"
+    ]
+  },
+  {
+    "id": "65",
+    "title": "Navy Blazer Slim Trousers Smart Look",
+    "gender": "male",
+    "category": "semi-formal",
+    "images": [
+      "https://images.unsplash.com/photo-1624835567150-0c530a20d8cc?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A sharp navy blazer paired with slim-fit trousers and a white dress shirt creates a polished semi-formal silhouette. Perfect for business casual environments and evening social events.",
+    "aiScore": 8.4,
+    "tags": [
+      "navy",
+      "blazer",
+      "slim-trousers",
+      "dress-shirt",
+      "smart-casual",
+      "business",
+      "menswear"
+    ]
+  },
+  {
+    "id": "66",
+    "title": "Navy Blazer Slim Trousers Smart Look",
+    "gender": "male",
+    "category": "semi-formal",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1661324413208-07da176ab583?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A sharp navy blazer paired with slim-fit trousers and a white dress shirt creates a polished semi-formal silhouette. Perfect for business casual environments and evening social events.",
+    "aiScore": 8.4,
+    "tags": [
+      "navy",
+      "blazer",
+      "slim-trousers",
+      "dress-shirt",
+      "smart-casual",
+      "business",
+      "menswear"
+    ]
+  },
+  {
+    "id": "67",
+    "title": "Navy Blazer Slim Trousers Smart Look",
+    "gender": "male",
+    "category": "semi-formal",
+    "images": [
+      "https://images.unsplash.com/photo-1613763961781-37fc4351e970?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A sharp navy blazer paired with slim-fit trousers and a white dress shirt creates a polished semi-formal silhouette. Perfect for business casual environments and evening social events.",
+    "aiScore": 8.4,
+    "tags": [
+      "navy",
+      "blazer",
+      "slim-trousers",
+      "dress-shirt",
+      "smart-casual",
+      "business",
+      "menswear"
+    ]
+  },
+  {
+    "id": "68",
+    "title": "Navy Blazer Slim Trousers Smart Look",
+    "gender": "male",
+    "category": "semi-formal",
+    "images": [
+      "https://images.unsplash.com/photo-1589178977703-ccab8991e046?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A sharp navy blazer paired with slim-fit trousers and a white dress shirt creates a polished semi-formal silhouette. Perfect for business casual environments and evening social events.",
+    "aiScore": 8.4,
+    "tags": [
+      "navy",
+      "blazer",
+      "slim-trousers",
+      "dress-shirt",
+      "smart-casual",
+      "business",
+      "menswear"
+    ]
+  },
+  {
+    "id": "69",
+    "title": "Navy Blazer Slim Trousers Smart Look",
+    "gender": "male",
+    "category": "semi-formal",
+    "images": [
+      "https://images.unsplash.com/photo-1618001789196-8b986847cd5e?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A sharp navy blazer paired with slim-fit trousers and a white dress shirt creates a polished semi-formal silhouette. Perfect for business casual environments and evening social events.",
+    "aiScore": 8.4,
+    "tags": [
+      "navy",
+      "blazer",
+      "slim-trousers",
+      "dress-shirt",
+      "smart-casual",
+      "business",
+      "menswear"
+    ]
+  },
+  {
+    "id": "70",
+    "title": "Navy Blazer Slim Trousers Smart Look",
+    "gender": "male",
+    "category": "semi-formal",
+    "images": [
+      "https://images.unsplash.com/photo-1632958964542-805ca6d880b2?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A sharp navy blazer paired with slim-fit trousers and a white dress shirt creates a polished semi-formal silhouette. Perfect for business casual environments and evening social events.",
+    "aiScore": 8.4,
+    "tags": [
+      "navy",
+      "blazer",
+      "slim-trousers",
+      "dress-shirt",
+      "smart-casual",
+      "business",
+      "menswear"
+    ]
+  },
+  {
+    "id": "71",
+    "title": "Navy Blazer Slim Trousers Smart Look",
+    "gender": "male",
+    "category": "semi-formal",
+    "images": [
+      "https://images.unsplash.com/photo-1622450180332-3da1126f10a4?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A sharp navy blazer paired with slim-fit trousers and a white dress shirt creates a polished semi-formal silhouette. Perfect for business casual environments and evening social events.",
+    "aiScore": 8.4,
+    "tags": [
+      "navy",
+      "blazer",
+      "slim-trousers",
+      "dress-shirt",
+      "smart-casual",
+      "business",
+      "menswear"
+    ]
+  },
+  {
+    "id": "72",
+    "title": "Navy Blazer Slim Trousers Smart Look",
+    "gender": "male",
+    "category": "semi-formal",
+    "images": [
+      "https://images.unsplash.com/photo-1678276207976-1497522c2a3c?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A sharp navy blazer paired with slim-fit trousers and a white dress shirt creates a polished semi-formal silhouette. Perfect for business casual environments and evening social events.",
+    "aiScore": 8.4,
+    "tags": [
+      "navy",
+      "blazer",
+      "slim-trousers",
+      "dress-shirt",
+      "smart-casual",
+      "business",
+      "menswear"
+    ]
+  },
+  {
+    "id": "73",
+    "title": "Navy Blazer Slim Trousers Smart Look",
+    "gender": "male",
+    "category": "semi-formal",
+    "images": [
+      "https://images.unsplash.com/photo-1666728514990-dd5bf3565324?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A sharp navy blazer paired with slim-fit trousers and a white dress shirt creates a polished semi-formal silhouette. Perfect for business casual environments and evening social events.",
+    "aiScore": 8.4,
+    "tags": [
+      "navy",
+      "blazer",
+      "slim-trousers",
+      "dress-shirt",
+      "smart-casual",
+      "business",
+      "menswear"
+    ]
+  },
+  {
+    "id": "74",
+    "title": "Navy Blazer Slim Trousers Smart Look",
+    "gender": "male",
+    "category": "semi-formal",
+    "images": [
+      "https://images.unsplash.com/photo-1623685307246-19d9f5534ce6?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A sharp navy blazer paired with slim-fit trousers and a white dress shirt creates a polished semi-formal silhouette. Perfect for business casual environments and evening social events.",
+    "aiScore": 8.4,
+    "tags": [
+      "navy",
+      "blazer",
+      "slim-trousers",
+      "dress-shirt",
+      "smart-casual",
+      "business",
+      "menswear"
+    ]
+  },
+  {
+    "id": "75",
+    "title": "Navy Double-Breasted Formal Suit",
+    "gender": "male",
+    "category": "formal",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1771392036573-67f2d2a8df90?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A distinguished navy double-breasted suit with peak lapels and gold buttons, paired with a white dress shirt and silk tie. Perfect for formal galas, weddings, and high-profile business events.",
+    "aiScore": 8.6,
+    "tags": [
+      "navy",
+      "double-breasted",
+      "peak-lapel",
+      "suit",
+      "gala",
+      "wedding",
+      "menswear"
+    ]
+  },
+  {
+    "id": "76",
+    "title": "Navy Double-Breasted Formal Suit",
+    "gender": "male",
+    "category": "formal",
+    "images": [
+      "https://images.unsplash.com/photo-1765175098255-412bb16b8341?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A distinguished navy double-breasted suit with peak lapels and gold buttons, paired with a white dress shirt and silk tie. Perfect for formal galas, weddings, and high-profile business events.",
+    "aiScore": 8.6,
+    "tags": [
+      "navy",
+      "double-breasted",
+      "peak-lapel",
+      "suit",
+      "gala",
+      "wedding",
+      "menswear"
+    ]
+  },
+  {
+    "id": "77",
+    "title": "Navy Double-Breasted Formal Suit",
+    "gender": "male",
+    "category": "formal",
+    "images": [
+      "https://images.unsplash.com/photo-1768696082783-4313d98341ae?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A distinguished navy double-breasted suit with peak lapels and gold buttons, paired with a white dress shirt and silk tie. Perfect for formal galas, weddings, and high-profile business events.",
+    "aiScore": 8.6,
+    "tags": [
+      "navy",
+      "double-breasted",
+      "peak-lapel",
+      "suit",
+      "gala",
+      "wedding",
+      "menswear"
+    ]
+  },
+  {
+    "id": "78",
+    "title": "Navy Double-Breasted Formal Suit",
+    "gender": "male",
+    "category": "formal",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1770933116384-ae2d676e76c2?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A distinguished navy double-breasted suit with peak lapels and gold buttons, paired with a white dress shirt and silk tie. Perfect for formal galas, weddings, and high-profile business events.",
+    "aiScore": 8.6,
+    "tags": [
+      "navy",
+      "double-breasted",
+      "peak-lapel",
+      "suit",
+      "gala",
+      "wedding",
+      "menswear"
+    ]
+  },
+  {
+    "id": "79",
+    "title": "Navy Double-Breasted Formal Suit",
+    "gender": "male",
+    "category": "formal",
+    "images": [
+      "https://media.istockphoto.com/id/2237981417/photo/confident-businessman-standing-in-modern-minimalist-office.webp?a=1&b=1&s=612x612&w=0&k=20&c=th3SmSMBNv5qpfJcr9EU5PxsB41qexnZetOZxC7UanI="
+    ],
+    "description": "A distinguished navy double-breasted suit with peak lapels and gold buttons, paired with a white dress shirt and silk tie. Perfect for formal galas, weddings, and high-profile business events.",
+    "aiScore": 8.6,
+    "tags": [
+      "navy",
+      "double-breasted",
+      "peak-lapel",
+      "suit",
+      "gala",
+      "wedding",
+      "menswear"
+    ]
+  },
+  {
+    "id": "80",
+    "title": "Navy Double-Breasted Formal Suit",
+    "gender": "male",
+    "category": "formal",
+    "images": [
+      "https://media.istockphoto.com/id/1300966151/photo/young-handsome-man-in-classic-suit.webp?a=1&b=1&s=612x612&w=0&k=20&c=Z5oEWFwTLpT7jPgrqtlOLeNm4oK_IhQn8DCpmyScV2k="
+    ],
+    "description": "A distinguished navy double-breasted suit with peak lapels and gold buttons, paired with a white dress shirt and silk tie. Perfect for formal galas, weddings, and high-profile business events.",
+    "aiScore": 8.6,
+    "tags": [
+      "navy",
+      "double-breasted",
+      "peak-lapel",
+      "suit",
+      "gala",
+      "wedding",
+      "menswear"
+    ]
+  },
+  {
+    "id": "81",
+    "title": "Navy Double-Breasted Formal Suit",
+    "gender": "male",
+    "category": "formal",
+    "images": [
+      "https://media.istockphoto.com/id/611767734/photo/sharp-dressed-man.webp?a=1&b=1&s=612x612&w=0&k=20&c=15Of1bnZfD2bHZTzONXRdpD0nTWmpbGSKAed_gvwrEk="
+    ],
+    "description": "A distinguished navy double-breasted suit with peak lapels and gold buttons, paired with a white dress shirt and silk tie. Perfect for formal galas, weddings, and high-profile business events.",
+    "aiScore": 8.6,
+    "tags": [
+      "navy",
+      "double-breasted",
+      "peak-lapel",
+      "suit",
+      "gala",
+      "wedding",
+      "menswear"
+    ]
+  },
+  {
+    "id": "82",
+    "title": "Navy Double-Breasted Formal Suit",
+    "gender": "male",
+    "category": "formal",
+    "images": [
+      "https://images.unsplash.com/photo-1667846068435-b22a81f03ca0?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A distinguished navy double-breasted suit with peak lapels and gold buttons, paired with a white dress shirt and silk tie. Perfect for formal galas, weddings, and high-profile business events.",
+    "aiScore": 8.6,
+    "tags": [
+      "navy",
+      "double-breasted",
+      "peak-lapel",
+      "suit",
+      "gala",
+      "wedding",
+      "menswear"
+    ]
+  },
+  {
+    "id": "83",
+    "title": "Navy Double-Breasted Formal Suit",
+    "gender": "male",
+    "category": "formal",
+    "images": [
+      "https://images.unsplash.com/photo-1650360814246-c0d4c1e49b26?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A distinguished navy double-breasted suit with peak lapels and gold buttons, paired with a white dress shirt and silk tie. Perfect for formal galas, weddings, and high-profile business events.",
+    "aiScore": 8.6,
+    "tags": [
+      "navy",
+      "double-breasted",
+      "peak-lapel",
+      "suit",
+      "gala",
+      "wedding",
+      "menswear"
+    ]
+  },
+  {
+    "id": "84",
+    "title": "Navy Double-Breasted Formal Suit",
+    "gender": "male",
+    "category": "formal",
+    "images": [
+      "https://images.unsplash.com/photo-1667845224657-f5318a090acd?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A distinguished navy double-breasted suit with peak lapels and gold buttons, paired with a white dress shirt and silk tie. Perfect for formal galas, weddings, and high-profile business events.",
+    "aiScore": 8.6,
+    "tags": [
+      "navy",
+      "double-breasted",
+      "peak-lapel",
+      "suit",
+      "gala",
+      "wedding",
+      "menswear"
+    ]
+  },
+  {
+    "id": "85",
+    "title": "Navy Double-Breasted Formal Suit",
+    "gender": "male",
+    "category": "formal",
+    "images": [
+      "https://media.istockphoto.com/id/1157120099/photo/portrait-of-confidence-handsome-young-man-in-full-suit-adjusting-his-sleeve-while-standing.webp?a=1&b=1&s=612x612&w=0&k=20&c=D12xzDo_-7mDQ9p2lD-EQun_SiR8uJkaqHrjFQMkwZE="
+    ],
+    "description": "A distinguished navy double-breasted suit with peak lapels and gold buttons, paired with a white dress shirt and silk tie. Perfect for formal galas, weddings, and high-profile business events.",
+    "aiScore": 8.6,
+    "tags": [
+      "navy",
+      "double-breasted",
+      "peak-lapel",
+      "suit",
+      "gala",
+      "wedding",
+      "menswear"
+    ]
+  },
+  {
+    "id": "86",
+    "title": "Navy Double-Breasted Formal Suit",
+    "gender": "male",
+    "category": "formal",
+    "images": [
+      "https://media.istockphoto.com/id/159281926/photo/businessman-wearing-classic-vest-against-row-of-suits-in-shop.webp?a=1&b=1&s=612x612&w=0&k=20&c=eZdXXy7MoRvS9V_AUFRyy9QIvzfKFn4V9Ef2_vis45g="
+    ],
+    "description": "A distinguished navy double-breasted suit with peak lapels and gold buttons, paired with a white dress shirt and silk tie. Perfect for formal galas, weddings, and high-profile business events.",
+    "aiScore": 8.6,
+    "tags": [
+      "navy",
+      "double-breasted",
+      "peak-lapel",
+      "suit",
+      "gala",
+      "wedding",
+      "menswear"
+    ]
+  },
+  {
+    "id": "87",
+    "title": "Navy Double-Breasted Formal Suit",
+    "gender": "male",
+    "category": "formal",
+    "images": [
+      "https://media.istockphoto.com/id/186494913/photo/elegant-attractive-fashion-hipster-man-lifestyle.webp?a=1&b=1&s=612x612&w=0&k=20&c=9-Hu4zpBhln5L8oi6kM_1hZ5lv1Su8BqvLKlooVAdAk="
+    ],
+    "description": "A distinguished navy double-breasted suit with peak lapels and gold buttons, paired with a white dress shirt and silk tie. Perfect for formal galas, weddings, and high-profile business events.",
+    "aiScore": 8.6,
+    "tags": [
+      "navy",
+      "double-breasted",
+      "peak-lapel",
+      "suit",
+      "gala",
+      "wedding",
+      "menswear"
+    ]
+  },
+  {
+    "id": "88",
+    "title": "Navy Double-Breasted Formal Suit",
+    "gender": "male",
+    "category": "formal",
+    "images": [
+      "https://media.istockphoto.com/id/1128242429/photo/portrait-of-a-young-man-in-a-business-suit.jpg?s=612x612&w=0&k=20&c=xv3GUdKLWLXIn7Z_RBvVQRcoAPU-myxjjng5AwyT7c8="
+    ],
+    "description": "A distinguished navy double-breasted suit with peak lapels and gold buttons, paired with a white dress shirt and silk tie. Perfect for formal galas, weddings, and high-profile business events.",
+    "aiScore": 8.6,
+    "tags": [
+      "navy",
+      "double-breasted",
+      "peak-lapel",
+      "suit",
+      "gala",
+      "wedding",
+      "menswear"
+    ]
+  },
+  {
+    "id": "89",
+    "title": "Navy Double-Breasted Formal Suit",
+    "gender": "male",
+    "category": "formal",
+    "images": [
+      "https://media.istockphoto.com/id/2264924772/photo/a-man-in-a-suit-and-tie-is-standing-in-front-of-a-window-holding-a-jacket.jpg?s=612x612&w=0&k=20&c=PuBZmMbR04r02k3sjqkWYEc4S0s06IRIFy4NkqNccCw="
+    ],
+    "description": "A distinguished navy double-breasted suit with peak lapels and gold buttons, paired with a white dress shirt and silk tie. Perfect for formal galas, weddings, and high-profile business events.",
+    "aiScore": 8.6,
+    "tags": [
+      "navy",
+      "double-breasted",
+      "peak-lapel",
+      "suit",
+      "gala",
+      "wedding",
+      "menswear"
+    ]
+  },
+  {
+    "id": "90",
+    "title": "Navy Double-Breasted Formal Suit",
+    "gender": "male",
+    "category": "formal",
+    "images": [
+      "https://media.istockphoto.com/id/579762470/photo/young-handsome-successful-stylish-businessman-standing-near-modern-office.jpg?s=612x612&w=0&k=20&c=c2jXKep5txG65uCpgqQ7GiPS49-fkEUb2MExFSh5p9w="
+    ],
+    "description": "A distinguished navy double-breasted suit with peak lapels and gold buttons, paired with a white dress shirt and silk tie. Perfect for formal galas, weddings, and high-profile business events.",
+    "aiScore": 8.6,
+    "tags": [
+      "navy",
+      "double-breasted",
+      "peak-lapel",
+      "suit",
+      "gala",
+      "wedding",
+      "menswear"
+    ]
+  },
+  {
+    "id": "91",
+    "title": "Navy Double-Breasted Formal Suit",
+    "gender": "male",
+    "category": "formal",
+    "images": [
+      "https://media.istockphoto.com/id/898451878/photo/portrait-of-businessman-against-white-background.jpg?s=612x612&w=0&k=20&c=JeN0IjtE0lkUfXoYXL7QwKPmw_-fi35vsTIbDCISU68="
+    ],
+    "description": "A distinguished navy double-breasted suit with peak lapels and gold buttons, paired with a white dress shirt and silk tie. Perfect for formal galas, weddings, and high-profile business events.",
+    "aiScore": 8.6,
+    "tags": [
+      "navy",
+      "double-breasted",
+      "peak-lapel",
+      "suit",
+      "gala",
+      "wedding",
+      "menswear"
+    ]
+  },
+  {
+    "id": "92",
+    "title": "Navy Double-Breasted Formal Suit",
+    "gender": "male",
+    "category": "formal",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1681841596729-4e6c62e23f0a?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A distinguished navy double-breasted suit with peak lapels and gold buttons, paired with a white dress shirt and silk tie. Perfect for formal galas, weddings, and high-profile business events.",
+    "aiScore": 8.6,
+    "tags": [
+      "navy",
+      "double-breasted",
+      "peak-lapel",
+      "suit",
+      "gala",
+      "wedding",
+      "menswear"
+    ]
+  },
+  {
+    "id": "93",
+    "title": "Navy Double-Breasted Formal Suit",
+    "gender": "male",
+    "category": "formal",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1661416497808-2319460830cb?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A distinguished navy double-breasted suit with peak lapels and gold buttons, paired with a white dress shirt and silk tie. Perfect for formal galas, weddings, and high-profile business events.",
+    "aiScore": 8.6,
+    "tags": [
+      "navy",
+      "double-breasted",
+      "peak-lapel",
+      "suit",
+      "gala",
+      "wedding",
+      "menswear"
+    ]
+  },
+  {
+    "id": "94",
+    "title": "Navy Double-Breasted Formal Suit",
+    "gender": "male",
+    "category": "formal",
+    "images": [
+      "https://images.unsplash.com/photo-1768489038932-a63eef1fe51f?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A distinguished navy double-breasted suit with peak lapels and gold buttons, paired with a white dress shirt and silk tie. Perfect for formal galas, weddings, and high-profile business events.",
+    "aiScore": 8.6,
+    "tags": [
+      "navy",
+      "double-breasted",
+      "peak-lapel",
+      "suit",
+      "gala",
+      "wedding",
+      "menswear"
+    ]
+  },
+  {
+    "id": "95",
+    "title": "Navy Double-Breasted Formal Suit",
+    "gender": "male",
+    "category": "formal",
+    "images": [
+      "https://images.unsplash.com/photo-1770582071587-dbbb4b09c2a9?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A distinguished navy double-breasted suit with peak lapels, paired with a white dress shirt and silk tie. Perfect for formal galas, weddings, and high-profile business events.",
+    "aiScore": 8.6,
+    "tags": [
+      "navy",
+      "double-breasted",
+      "peak-lapel",
+      "suit",
+      "gala",
+      "wedding",
+      "menswear"
+    ]
+  },
+  {
+    "id": "96",
+    "title": "Navy Double-Breasted Formal Suit",
+    "gender": "male",
+    "category": "formal",
+    "images": [
+      "https://images.unsplash.com/photo-1775257796082-b04722efcc4d?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A distinguished navy double-breasted suit with peak lapels, paired with a white dress shirt and silk tie. Perfect for formal galas, weddings, and high-profile business events.",
+    "aiScore": 8.6,
+    "tags": [
+      "navy",
+      "double-breasted",
+      "peak-lapel",
+      "suit",
+      "gala",
+      "wedding",
+      "menswear"
+    ]
+  },
+  {
+    "id": "97",
+    "title": "Navy Double-Breasted Formal Suit",
+    "gender": "male",
+    "category": "formal",
+    "images": [
+      "https://images.unsplash.com/flagged/photo-1594170954639-ff95b015b546?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A distinguished navy double-breasted suit with peak lapels, paired with a white dress shirt and silk tie. Perfect for formal galas, weddings, and high-profile business events.",
+    "aiScore": 8.6,
+    "tags": [
+      "navy",
+      "double-breasted",
+      "peak-lapel",
+      "suit",
+      "gala",
+      "wedding",
+      "menswear"
+    ]
+  },
+  {
+    "id": "98",
+    "title": "Navy Double-Breasted Formal Suit",
+    "gender": "male",
+    "category": "formal",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1771392038023-716b800ca78e?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A distinguished navy double-breasted suit with peak lapels, paired with a white dress shirt and silk tie. Perfect for formal galas, weddings, and high-profile business events.",
+    "aiScore": 8.6,
+    "tags": [
+      "navy",
+      "double-breasted",
+      "peak-lapel",
+      "suit",
+      "gala",
+      "wedding",
+      "menswear"
+    ]
+  },
+  {
+    "id": "99",
+    "title": "Navy Double-Breasted Formal Suit",
+    "gender": "male",
+    "category": "formal",
+    "images": [
+      "https://images.unsplash.com/photo-1775036423115-b0f46d5b5694?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A distinguished navy double-breasted suit with peak lapels, paired with a white dress shirt and silk tie. Perfect for formal galas, weddings, and high-profile business events.",
+    "aiScore": 8.6,
+    "tags": [
+      "navy",
+      "double-breasted",
+      "peak-lapel",
+      "suit",
+      "gala",
+      "wedding",
+      "menswear"
+    ]
+  },
+  {
+    "id": "100",
+    "title": "Navy Double-Breasted Formal Suit",
+    "gender": "male",
+    "category": "formal",
+    "images": [
+      "https://images.unsplash.com/photo-1770217614107-949ac780f22b?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A distinguished navy double-breasted suit with peak lapels, paired with a white dress shirt and silk tie. Perfect for formal galas, weddings, and high-profile business events.",
+    "aiScore": 8.6,
+    "tags": [
+      "navy",
+      "double-breasted",
+      "peak-lapel",
+      "suit",
+      "gala",
+      "wedding",
+      "menswear"
+    ]
+  },
+  {
+    "id": "101",
+    "title": "Navy Double-Breasted Formal Suit",
+    "gender": "male",
+    "category": "formal",
+    "images": [
+      "https://images.unsplash.com/photo-1770662368022-0665169d45f5?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A distinguished navy double-breasted suit with peak lapels, paired with a white dress shirt and silk tie. Perfect for formal galas, weddings, and high-profile business events.",
+    "aiScore": 8.6,
+    "tags": [
+      "navy",
+      "double-breasted",
+      "peak-lapel",
+      "suit",
+      "gala",
+      "wedding",
+      "menswear"
+    ]
+  },
+  {
+    "id": "102",
+    "title": "Navy Double-Breasted Formal Suit",
+    "gender": "male",
+    "category": "formal",
+    "images": [
+      "https://images.unsplash.com/photo-1769107260603-2d775894448d?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A distinguished navy double-breasted suit with peak lapels, paired with a white dress shirt and silk tie. Perfect for formal galas, weddings, and high-profile business events.",
+    "aiScore": 8.6,
+    "tags": [
+      "navy",
+      "double-breasted",
+      "peak-lapel",
+      "suit",
+      "gala",
+      "wedding",
+      "menswear"
+    ]
+  },
+  {
+    "id": "103",
+    "title": "Navy Double-Breasted Formal Suit",
+    "gender": "male",
+    "category": "formal",
+    "images": [
+      "https://images.unsplash.com/photo-1776781205743-33b4c1106adc?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A distinguished navy double-breasted suit with peak lapels, paired with a white dress shirt and silk tie. Perfect for formal galas, weddings, and high-profile business events.",
+    "aiScore": 8.6,
+    "tags": [
+      "navy",
+      "double-breasted",
+      "peak-lapel",
+      "suit",
+      "gala",
+      "wedding",
+      "menswear"
+    ]
+  },
+  {
+    "id": "104",
+    "title": "Navy Double-Breasted Formal Suit",
+    "gender": "male",
+    "category": "formal",
+    "images": [
+      "https://images.unsplash.com/photo-1773688189505-f92d103f7860?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A distinguished navy double-breasted suit with peak lapels, paired with a white dress shirt and silk tie. Perfect for formal galas, weddings, and high-profile business events.",
+    "aiScore": 8.6,
+    "tags": [
+      "navy",
+      "double-breasted",
+      "peak-lapel",
+      "suit",
+      "gala",
+      "wedding",
+      "menswear"
+    ]
+  },
+  {
+    "id": "105",
+    "title": "Navy Double-Breasted Formal Suit",
+    "gender": "male",
+    "category": "formal",
+    "images": [
+      "https://images.unsplash.com/photo-1773682605866-94ab081beff5?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A distinguished navy double-breasted suit with peak lapels, paired with a white dress shirt and silk tie. Perfect for formal galas, weddings, and high-profile business events.",
+    "aiScore": 8.6,
+    "tags": [
+      "navy",
+      "double-breasted",
+      "peak-lapel",
+      "suit",
+      "gala",
+      "wedding",
+      "menswear"
+    ]
+  },
+  {
+    "id": "106",
+    "title": "Navy Double-Breasted Formal Suit",
+    "gender": "male",
+    "category": "formal",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1770931337744-7413799baeca?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A distinguished navy double-breasted suit with peak lapels, paired with a white dress shirt and silk tie. Perfect for formal galas, weddings, and high-profile business events.",
+    "aiScore": 8.6,
+    "tags": [
+      "navy",
+      "double-breasted",
+      "peak-lapel",
+      "suit",
+      "gala",
+      "wedding",
+      "menswear"
+    ]
+  },
+  {
+    "id": "107",
+    "title": "Navy Double-Breasted Formal Suit",
+    "gender": "male",
+    "category": "formal",
+    "images": [
+      "https://images.unsplash.com/photo-1772404245903-d374e4aa0312?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A distinguished navy double-breasted suit with peak lapels, paired with a white dress shirt and silk tie. Perfect for formal galas, weddings, and high-profile business events.",
+    "aiScore": 8.6,
+    "tags": [
+      "navy",
+      "double-breasted",
+      "peak-lapel",
+      "suit",
+      "gala",
+      "wedding",
+      "menswear"
+    ]
+  },
+  {
+    "id": "108",
+    "title": "Navy Double-Breasted Formal Suit",
+    "gender": "male",
+    "category": "formal",
+    "images": [
+      "https://images.unsplash.com/photo-1754577060078-21315dd188c8?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A distinguished navy double-breasted suit with peak lapels, paired with a white dress shirt and silk tie. Perfect for formal galas, weddings, and high-profile business events.",
+    "aiScore": 8.6,
+    "tags": [
+      "navy",
+      "double-breasted",
+      "peak-lapel",
+      "suit",
+      "gala",
+      "wedding",
+      "menswear"
+    ]
+  },
+  {
+    "id": "109",
+    "title": "Navy Double-Breasted Formal Suit",
+    "gender": "male",
+    "category": "formal",
+    "images": [
+      "https://images.unsplash.com/photo-1768489038991-b120542c84f0?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A distinguished navy double-breasted suit with peak lapels, paired with a white dress shirt and silk tie. Perfect for formal galas, weddings, and high-profile business events.",
+    "aiScore": 8.6,
+    "tags": [
+      "navy",
+      "double-breasted",
+      "peak-lapel",
+      "suit",
+      "gala",
+      "wedding",
+      "menswear"
+    ]
+  },
+  {
+    "id": "110",
+    "title": "Navy Double-Breasted Formal Suit",
+    "gender": "male",
+    "category": "formal",
+    "images": [
+      "https://images.unsplash.com/photo-1775680978611-4bbc221f3944?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A distinguished navy double-breasted suit with peak lapels, paired with a white dress shirt and silk tie. Perfect for formal galas, weddings, and high-profile business events.",
+    "aiScore": 8.6,
+    "tags": [
+      "navy",
+      "double-breasted",
+      "peak-lapel",
+      "suit",
+      "gala",
+      "wedding",
+      "menswear"
+    ]
+  },
+  {
+    "id": "111",
+    "title": "Navy Double-Breasted Formal Suit",
+    "gender": "male",
+    "category": "formal",
+    "images": [
+      "https://images.unsplash.com/photo-1775257796019-3e8db981a1a6?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A distinguished navy double-breasted suit with peak lapels, paired with a white dress shirt and silk tie. Perfect for formal galas, weddings, and high-profile business events.",
+    "aiScore": 8.6,
+    "tags": [
+      "navy",
+      "double-breasted",
+      "peak-lapel",
+      "suit",
+      "gala",
+      "wedding",
+      "menswear"
+    ]
+  },
+  {
+    "id": "112",
+    "title": "Navy Double-Breasted Formal Suit",
+    "gender": "male",
+    "category": "formal",
+    "images": [
+      "https://images.unsplash.com/photo-1775831726606-3d98ebefb57a?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A distinguished navy double-breasted suit with peak lapels, paired with a white dress shirt and silk tie. Perfect for formal galas, weddings, and high-profile business events.",
+    "aiScore": 8.6,
+    "tags": [
+      "navy",
+      "double-breasted",
+      "peak-lapel",
+      "suit",
+      "gala",
+      "wedding",
+      "menswear"
+    ]
+  },
+  {
+    "id": "113",
+    "title": "Navy Double-Breasted Formal Suit",
+    "gender": "male",
+    "category": "formal",
+    "images": [
+      "https://images.unsplash.com/photo-1775036422869-190252aa02e4?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A distinguished navy double-breasted suit with peak lapels, paired with a white dress shirt and silk tie. Perfect for formal galas, weddings, and high-profile business events.",
+    "aiScore": 8.6,
+    "tags": [
+      "navy",
+      "double-breasted",
+      "peak-lapel",
+      "suit",
+      "gala",
+      "wedding",
+      "menswear"
+    ]
+  },
+  {
+    "id": "114",
+    "title": "Navy Double-Breasted Formal Suit",
+    "gender": "male",
+    "category": "formal",
+    "images": [
+      "https://images.unsplash.com/photo-1771244702701-6c9edac63255?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A distinguished navy double-breasted suit with peak lapels, paired with a white dress shirt and silk tie. Perfect for formal galas, weddings, and high-profile business events.",
+    "aiScore": 8.6,
+    "tags": [
+      "navy",
+      "double-breasted",
+      "peak-lapel",
+      "suit",
+      "gala",
+      "wedding",
+      "menswear"
+    ]
+  },
+  {
+    "id": "115",
+    "title": "Relaxed Cotton Tee and Chino Weekend Look",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1726804943602-8e251f780c89?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A relaxed weekend outfit featuring a clean cotton t-shirt paired with tailored chino trousers. The comfortable silhouette and neutral palette make it a versatile everyday casual choice.",
+    "aiScore": 8.2,
+    "tags": [
+      "cotton",
+      "t-shirt",
+      "chino",
+      "relaxed",
+      "weekend",
+      "neutral",
+      "everyday"
+    ]
+  },
+  {
+    "id": "116",
+    "title": "Relaxed Cotton Tee and Chino Weekend Look",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1615351514101-420ec09b593b?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A relaxed weekend outfit featuring a clean cotton t-shirt paired with tailored chino trousers. The comfortable silhouette and neutral palette make it a versatile everyday casual choice.",
+    "aiScore": 8.2,
+    "tags": [
+      "cotton",
+      "t-shirt",
+      "chino",
+      "relaxed",
+      "weekend",
+      "neutral",
+      "everyday"
+    ]
+  },
+  {
+    "id": "117",
+    "title": "Relaxed Cotton Tee and Chino Weekend Look",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1636546115004-3f4132c3c67e?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A relaxed weekend outfit featuring a clean cotton t-shirt paired with tailored chino trousers. The comfortable silhouette and neutral palette make it a versatile everyday casual choice.",
+    "aiScore": 8.2,
+    "tags": [
+      "cotton",
+      "t-shirt",
+      "chino",
+      "relaxed",
+      "weekend",
+      "neutral",
+      "everyday"
+    ]
+  },
+  {
+    "id": "118",
+    "title": "Relaxed Cotton Tee and Chino Weekend Look",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1604877079876-2a8eed608e38?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A relaxed weekend outfit featuring a clean cotton t-shirt paired with tailored chino trousers. The comfortable silhouette and neutral palette make it a versatile everyday casual choice.",
+    "aiScore": 8.2,
+    "tags": [
+      "cotton",
+      "t-shirt",
+      "chino",
+      "relaxed",
+      "weekend",
+      "neutral",
+      "everyday"
+    ]
+  },
+  {
+    "id": "119",
+    "title": "Relaxed Cotton Tee and Chino Weekend Look",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1661780837006-35f505e0763a?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A relaxed weekend outfit featuring a clean cotton t-shirt paired with tailored chino trousers. The comfortable silhouette and neutral palette make it a versatile everyday casual choice.",
+    "aiScore": 8.2,
+    "tags": [
+      "cotton",
+      "t-shirt",
+      "chino",
+      "relaxed",
+      "weekend",
+      "neutral",
+      "everyday"
+    ]
+  },
+  {
+    "id": "120",
+    "title": "Relaxed Cotton Tee and Chino Weekend Look",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1575009540597-572763232345?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A relaxed weekend outfit featuring a clean cotton t-shirt paired with tailored chino trousers. The comfortable silhouette and neutral palette make it a versatile everyday casual choice.",
+    "aiScore": 8.2,
+    "tags": [
+      "cotton",
+      "t-shirt",
+      "chino",
+      "relaxed",
+      "weekend",
+      "neutral",
+      "everyday"
+    ]
+  },
+  {
+    "id": "121",
+    "title": "Relaxed Cotton Tee and Chino Weekend Look",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1772798921699-69445b09c598?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A relaxed weekend outfit featuring a clean cotton t-shirt paired with tailored chino trousers. The comfortable silhouette and neutral palette make it a versatile everyday casual choice.",
+    "aiScore": 8.2,
+    "tags": [
+      "cotton",
+      "t-shirt",
+      "chino",
+      "relaxed",
+      "weekend",
+      "neutral",
+      "everyday"
+    ]
+  },
+  {
+    "id": "122",
+    "title": "Relaxed Cotton Tee and Chino Weekend Look",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1603544065725-521789a8c4c9?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A relaxed weekend outfit featuring a clean cotton t-shirt paired with tailored chino trousers. The comfortable silhouette and neutral palette make it a versatile everyday casual choice.",
+    "aiScore": 8.2,
+    "tags": [
+      "cotton",
+      "t-shirt",
+      "chino",
+      "relaxed",
+      "weekend",
+      "neutral",
+      "everyday"
+    ]
+  },
+  {
+    "id": "123",
+    "title": "Relaxed Cotton Tee and Chino Weekend Look",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1576526625665-849fbc418224?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A relaxed weekend outfit featuring a clean cotton t-shirt paired with tailored chino trousers. The comfortable silhouette and neutral palette make it a versatile everyday casual choice.",
+    "aiScore": 8.2,
+    "tags": [
+      "cotton",
+      "t-shirt",
+      "chino",
+      "relaxed",
+      "weekend",
+      "neutral",
+      "everyday"
+    ]
+  },
+  {
+    "id": "124",
+    "title": "Relaxed Cotton Tee and Chino Weekend Look",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1621294711156-a53bfc9df6f2?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A relaxed weekend outfit featuring a clean cotton t-shirt paired with tailored chino trousers. The comfortable silhouette and neutral palette make it a versatile everyday casual choice.",
+    "aiScore": 8.2,
+    "tags": [
+      "cotton",
+      "t-shirt",
+      "chino",
+      "relaxed",
+      "weekend",
+      "neutral",
+      "everyday"
+    ]
+  },
+  {
+    "id": "125",
+    "title": "Relaxed Cotton Tee and Chino Weekend Look",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1681506744943-9a56e36cc40d?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A relaxed weekend outfit featuring a clean cotton t-shirt paired with tailored chino trousers. The comfortable silhouette and neutral palette make it a versatile everyday casual choice.",
+    "aiScore": 8.2,
+    "tags": [
+      "cotton",
+      "t-shirt",
+      "chino",
+      "relaxed",
+      "weekend",
+      "neutral",
+      "everyday"
+    ]
+  },
+  {
+    "id": "126",
+    "title": "Relaxed Cotton Tee and Chino Weekend Look",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1612983973682-53eb83cf1d33?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A relaxed weekend outfit featuring a clean cotton t-shirt paired with tailored chino trousers. The comfortable silhouette and neutral palette make it a versatile everyday casual choice.",
+    "aiScore": 8.2,
+    "tags": [
+      "cotton",
+      "t-shirt",
+      "chino",
+      "relaxed",
+      "weekend",
+      "neutral",
+      "everyday"
+    ]
+  },
+  {
+    "id": "127",
+    "title": "Relaxed Cotton Tee and Chino Weekend Look",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1672136996803-6780e283fd55?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A relaxed weekend outfit featuring a clean cotton t-shirt paired with tailored chino trousers. The comfortable silhouette and neutral palette make it a versatile everyday casual choice.",
+    "aiScore": 8.2,
+    "tags": [
+      "cotton",
+      "t-shirt",
+      "chino",
+      "relaxed",
+      "weekend",
+      "neutral",
+      "everyday"
+    ]
+  },
+  {
+    "id": "128",
+    "title": "Relaxed Cotton Tee and Chino Weekend Look",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1642886513392-f87c4a5d3a4e?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A relaxed weekend outfit featuring a clean cotton t-shirt paired with tailored chino trousers. The comfortable silhouette and neutral palette make it a versatile everyday casual choice.",
+    "aiScore": 8.2,
+    "tags": [
+      "cotton",
+      "t-shirt",
+      "chino",
+      "relaxed",
+      "weekend",
+      "neutral",
+      "everyday"
+    ]
+  },
+  {
+    "id": "129",
+    "title": "Relaxed Cotton Tee and Chino Weekend Look",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1715409352632-7d77749a3edd?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A relaxed weekend outfit featuring a clean cotton t-shirt paired with tailored chino trousers. The comfortable silhouette and neutral palette make it a versatile everyday casual choice.",
+    "aiScore": 8.2,
+    "tags": [
+      "cotton",
+      "t-shirt",
+      "chino",
+      "relaxed",
+      "weekend",
+      "neutral",
+      "everyday"
+    ]
+  },
+  {
+    "id": "130",
+    "title": "Relaxed Cotton Tee and Chino Weekend Look",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1661328024339-5c3354c33f6e?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A relaxed weekend outfit featuring a clean cotton t-shirt paired with tailored chino trousers. The comfortable silhouette and neutral palette make it a versatile everyday casual choice.",
+    "aiScore": 8.2,
+    "tags": [
+      "cotton",
+      "t-shirt",
+      "chino",
+      "relaxed",
+      "weekend",
+      "neutral",
+      "everyday"
+    ]
+  },
+  {
+    "id": "131",
+    "title": "Relaxed Cotton Tee and Chino Weekend Look",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1580803223241-23f8244d6e60?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A relaxed weekend outfit featuring a clean cotton t-shirt paired with tailored chino trousers. The comfortable silhouette and neutral palette make it a versatile everyday casual choice.",
+    "aiScore": 8.2,
+    "tags": [
+      "cotton",
+      "t-shirt",
+      "chino",
+      "relaxed",
+      "weekend",
+      "neutral",
+      "everyday"
+    ]
+  },
+  {
+    "id": "132",
+    "title": "Relaxed Cotton Tee and Chino Weekend Look",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1545959921-832131e6ebed?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A relaxed weekend outfit featuring a clean cotton t-shirt paired with tailored chino trousers. The comfortable silhouette and neutral palette make it a versatile everyday casual choice.",
+    "aiScore": 8.2,
+    "tags": [
+      "cotton",
+      "t-shirt",
+      "chino",
+      "relaxed",
+      "weekend",
+      "neutral",
+      "everyday"
+    ]
+  },
+  {
+    "id": "133",
+    "title": "Relaxed Cotton Tee and Chino Weekend Look",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1661281366900-88b41445a004?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A relaxed weekend outfit featuring a clean cotton t-shirt paired with tailored chino trousers. The comfortable silhouette and neutral palette make it a versatile everyday casual choice.",
+    "aiScore": 8.2,
+    "tags": [
+      "cotton",
+      "t-shirt",
+      "chino",
+      "relaxed",
+      "weekend",
+      "neutral",
+      "everyday"
+    ]
+  },
+  {
+    "id": "134",
+    "title": "Relaxed Cotton Tee and Chino Weekend Look",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1772798921669-0f6e1f6f032d?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A relaxed weekend outfit featuring a clean cotton t-shirt paired with tailored chino trousers. The comfortable silhouette and neutral palette make it a versatile everyday casual choice.",
+    "aiScore": 8.2,
+    "tags": [
+      "cotton",
+      "t-shirt",
+      "chino",
+      "relaxed",
+      "weekend",
+      "neutral",
+      "everyday"
+    ]
+  },
+  {
+    "id": "135",
+    "title": "Relaxed Cotton Tee and Chino Weekend Look",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1636590416708-68a4867918f1?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A relaxed weekend outfit featuring a clean cotton t-shirt paired with tailored chino trousers. The comfortable silhouette and neutral palette make it a versatile everyday casual choice.",
+    "aiScore": 8.2,
+    "tags": [
+      "cotton",
+      "t-shirt",
+      "chino",
+      "relaxed",
+      "weekend",
+      "neutral",
+      "everyday"
+    ]
+  },
+  {
+    "id": "136",
+    "title": "Relaxed Cotton Tee and Chino Weekend Look",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1700993443991-510c1cd91bf4?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A relaxed weekend outfit featuring a clean cotton t-shirt paired with tailored chino trousers. The comfortable silhouette and neutral palette make it a versatile everyday casual choice.",
+    "aiScore": 8.2,
+    "tags": [
+      "cotton",
+      "t-shirt",
+      "chino",
+      "relaxed",
+      "weekend",
+      "neutral",
+      "everyday"
+    ]
+  },
+  {
+    "id": "137",
+    "title": "Relaxed Cotton Tee and Chino Weekend Look",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1719087393177-da994184766d?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A relaxed weekend outfit featuring a clean cotton t-shirt paired with tailored chino trousers. The comfortable silhouette and neutral palette make it a versatile everyday casual choice.",
+    "aiScore": 8.2,
+    "tags": [
+      "cotton",
+      "t-shirt",
+      "chino",
+      "relaxed",
+      "weekend",
+      "neutral",
+      "everyday"
+    ]
+  },
+  {
+    "id": "138",
+    "title": "Relaxed Cotton Tee and Chino Weekend Look",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1680044050705-b49a82990129?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A relaxed weekend outfit featuring a clean cotton t-shirt paired with tailored chino trousers. The comfortable silhouette and neutral palette make it a versatile everyday casual choice.",
+    "aiScore": 8.2,
+    "tags": [
+      "cotton",
+      "t-shirt",
+      "chino",
+      "relaxed",
+      "weekend",
+      "neutral",
+      "everyday"
+    ]
+  },
+  {
+    "id": "139",
+    "title": "Relaxed Cotton Tee and Chino Weekend Look",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1571224736380-47d89379b3d8?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A relaxed weekend outfit featuring a clean cotton t-shirt paired with tailored chino trousers. The comfortable silhouette and neutral palette make it a versatile everyday casual choice.",
+    "aiScore": 8.2,
+    "tags": [
+      "cotton",
+      "t-shirt",
+      "chino",
+      "relaxed",
+      "weekend",
+      "neutral",
+      "everyday"
+    ]
+  },
+  {
+    "id": "140",
+    "title": "Relaxed Cotton Tee and Chino Weekend Look",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1617114919297-3c8ddb01f599?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A relaxed weekend outfit featuring a clean cotton t-shirt paired with tailored chino trousers. The comfortable silhouette and neutral palette make it a versatile everyday casual choice.",
+    "aiScore": 8.2,
+    "tags": [
+      "cotton",
+      "t-shirt",
+      "chino",
+      "relaxed",
+      "weekend",
+      "neutral",
+      "everyday"
+    ]
+  },
+  {
+    "id": "141",
+    "title": "Relaxed Cotton Tee and Chino Weekend Look",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1667843282449-2904126687a1?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A relaxed weekend outfit featuring a clean cotton t-shirt paired with tailored chino trousers. The comfortable silhouette and neutral palette make it a versatile everyday casual choice.",
+    "aiScore": 8.2,
+    "tags": [
+      "cotton",
+      "t-shirt",
+      "chino",
+      "relaxed",
+      "weekend",
+      "neutral",
+      "everyday"
+    ]
+  },
+  {
+    "id": "142",
+    "title": "Relaxed Cotton Tee and Chino Weekend Look",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1604073536770-8a33e332f830?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A relaxed weekend outfit featuring a clean cotton t-shirt paired with tailored chino trousers. The comfortable silhouette and neutral palette make it a versatile everyday casual choice.",
+    "aiScore": 8.2,
+    "tags": [
+      "cotton",
+      "t-shirt",
+      "chino",
+      "relaxed",
+      "weekend",
+      "neutral",
+      "everyday"
+    ]
+  },
+  {
+    "id": "143",
+    "title": "Relaxed Cotton Tee and Chino Weekend Look",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1667838647260-5c6c75dab4d5?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A relaxed weekend outfit featuring a clean cotton t-shirt paired with tailored chino trousers. The comfortable silhouette and neutral palette make it a versatile everyday casual choice.",
+    "aiScore": 8.2,
+    "tags": [
+      "cotton",
+      "t-shirt",
+      "chino",
+      "relaxed",
+      "weekend",
+      "neutral",
+      "everyday"
+    ]
+  },
+  {
+    "id": "144",
+    "title": "Relaxed Cotton Tee and Chino Weekend Look",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1643155511946-4af707cb82fd?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A relaxed weekend outfit featuring a clean cotton t-shirt paired with tailored chino trousers. The comfortable silhouette and neutral palette make it a versatile everyday casual choice.",
+    "aiScore": 8.2,
+    "tags": [
+      "cotton",
+      "t-shirt",
+      "chino",
+      "relaxed",
+      "weekend",
+      "neutral",
+      "everyday"
+    ]
+  },
+  {
+    "id": "145",
+    "title": "Relaxed Cotton Tee and Chino Weekend Look",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1659356576803-5ab91b17a9db?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A relaxed weekend outfit featuring a clean cotton t-shirt paired with tailored chino trousers. The comfortable silhouette and neutral palette make it a versatile everyday casual choice.",
+    "aiScore": 8.2,
+    "tags": [
+      "cotton",
+      "t-shirt",
+      "chino",
+      "relaxed",
+      "weekend",
+      "neutral",
+      "everyday"
+    ]
+  },
+  {
+    "id": "146",
+    "title": "Relaxed Cotton Tee and Chino Weekend Look",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1543084951-1650d1468e2d?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A relaxed weekend outfit featuring a clean cotton t-shirt paired with tailored chino trousers. The comfortable silhouette and neutral palette make it a versatile everyday casual choice.",
+    "aiScore": 8.2,
+    "tags": [
+      "cotton",
+      "t-shirt",
+      "chino",
+      "relaxed",
+      "weekend",
+      "neutral",
+      "everyday"
+    ]
+  },
+  {
+    "id": "147",
+    "title": "Relaxed Cotton Tee and Chino Weekend Look",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1568990545613-aa37e9353eb6?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A relaxed weekend outfit featuring a clean cotton t-shirt paired with tailored chino trousers. The comfortable silhouette and neutral palette make it a versatile everyday casual choice.",
+    "aiScore": 8.2,
+    "tags": [
+      "cotton",
+      "t-shirt",
+      "chino",
+      "relaxed",
+      "weekend",
+      "neutral",
+      "everyday"
+    ]
+  },
+  {
+    "id": "148",
+    "title": "Relaxed Cotton Tee and Chino Weekend Look",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1646408999669-ee7d002cd3fa?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A relaxed weekend outfit featuring a clean cotton t-shirt paired with tailored chino trousers. The comfortable silhouette and neutral palette make it a versatile everyday casual choice.",
+    "aiScore": 8.2,
+    "tags": [
+      "cotton",
+      "t-shirt",
+      "chino",
+      "relaxed",
+      "weekend",
+      "neutral",
+      "everyday"
+    ]
+  },
+  {
+    "id": "149",
+    "title": "Relaxed Cotton Tee and Chino Weekend Look",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1683121562348-415503cea1fb?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A relaxed weekend outfit featuring a clean cotton t-shirt paired with tailored chino trousers. The comfortable silhouette and neutral palette make it a versatile everyday casual choice.",
+    "aiScore": 8.2,
+    "tags": [
+      "cotton",
+      "t-shirt",
+      "chino",
+      "relaxed",
+      "weekend",
+      "neutral",
+      "everyday"
+    ]
+  },
+  {
+    "id": "150",
+    "title": "Relaxed Cotton Tee and Chino Weekend Look",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1728392001681-43c57e5318a7?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A relaxed weekend outfit featuring a clean cotton t-shirt paired with tailored chino trousers. The comfortable silhouette and neutral palette make it a versatile everyday casual choice.",
+    "aiScore": 8.2,
+    "tags": [
+      "cotton",
+      "t-shirt",
+      "chino",
+      "relaxed",
+      "weekend",
+      "neutral",
+      "everyday"
+    ]
+  },
+  {
+    "id": "151",
+    "title": "Relaxed Cotton Tee and Chino Weekend Look",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1706553664216-0e0e6dedec8e?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A relaxed weekend outfit featuring a clean cotton t-shirt paired with tailored chino trousers. The comfortable silhouette and neutral palette make it a versatile everyday casual choice.",
+    "aiScore": 8.2,
+    "tags": [
+      "cotton",
+      "t-shirt",
+      "chino",
+      "relaxed",
+      "weekend",
+      "neutral",
+      "everyday"
+    ]
+  },
+  {
+    "id": "152",
+    "title": "Relaxed Cotton Tee and Chino Weekend Look",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1602653018235-6fdfc8a4ae8d?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A relaxed weekend outfit featuring a clean cotton t-shirt paired with tailored chino trousers. The comfortable silhouette and neutral palette make it a versatile everyday casual choice.",
+    "aiScore": 8.2,
+    "tags": [
+      "cotton",
+      "t-shirt",
+      "chino",
+      "relaxed",
+      "weekend",
+      "neutral",
+      "everyday"
+    ]
+  },
+  {
+    "id": "153",
+    "title": "Relaxed Cotton Tee and Chino Weekend Look",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1661301093012-cf876d46e873?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A relaxed weekend outfit featuring a clean cotton t-shirt paired with tailored chino trousers. The comfortable silhouette and neutral palette make it a versatile everyday casual choice.",
+    "aiScore": 8.2,
+    "tags": [
+      "cotton",
+      "t-shirt",
+      "chino",
+      "relaxed",
+      "weekend",
+      "neutral",
+      "everyday"
+    ]
+  },
+  {
+    "id": "154",
+    "title": "Relaxed Cotton Tee and Chino Weekend Look",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1584095923256-a6920a1c590b?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A relaxed weekend outfit featuring a clean cotton t-shirt paired with tailored chino trousers. The comfortable silhouette and neutral palette make it a versatile everyday casual choice.",
+    "aiScore": 8.2,
+    "tags": [
+      "cotton",
+      "t-shirt",
+      "chino",
+      "relaxed",
+      "weekend",
+      "neutral",
+      "everyday"
+    ]
+  },
+  {
+    "id": "155",
+    "title": "Relaxed Cotton Tee and Chino Weekend Look",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1704719482557-6cb9c8774cbe?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A relaxed weekend outfit featuring a clean cotton t-shirt paired with tailored chino trousers. The comfortable silhouette and neutral palette make it a versatile everyday casual choice.",
+    "aiScore": 8.2,
+    "tags": [
+      "cotton",
+      "t-shirt",
+      "chino",
+      "relaxed",
+      "weekend",
+      "neutral",
+      "everyday"
+    ]
+  },
+  {
+    "id": "156",
+    "title": "Relaxed Cotton Tee and Chino Weekend Look",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1673734626655-0c1dc4be0e9c?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A relaxed weekend outfit featuring a clean cotton t-shirt paired with tailored chino trousers. The comfortable silhouette and neutral palette make it a versatile everyday casual choice.",
+    "aiScore": 8.2,
+    "tags": [
+      "cotton",
+      "t-shirt",
+      "chino",
+      "relaxed",
+      "weekend",
+      "neutral",
+      "everyday"
+    ]
+  },
+  {
+    "id": "157",
+    "title": "Relaxed Cotton Tee and Chino Weekend Look",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1603305392663-cd0b9e608a04?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A relaxed weekend outfit featuring a clean cotton t-shirt paired with tailored chino trousers. The comfortable silhouette and neutral palette make it a versatile everyday casual choice.",
+    "aiScore": 8.2,
+    "tags": [
+      "cotton",
+      "t-shirt",
+      "chino",
+      "relaxed",
+      "weekend",
+      "neutral",
+      "everyday"
+    ]
+  },
+  {
+    "id": "158",
+    "title": "Relaxed Cotton Tee and Chino Weekend Look",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1612983881270-6de7d8862f11?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A relaxed weekend outfit featuring a clean cotton t-shirt paired with tailored chino trousers. The comfortable silhouette and neutral palette make it a versatile everyday casual choice.",
+    "aiScore": 8.2,
+    "tags": [
+      "cotton",
+      "t-shirt",
+      "chino",
+      "relaxed",
+      "weekend",
+      "neutral",
+      "everyday"
+    ]
+  },
+  {
+    "id": "159",
+    "title": "Relaxed Cotton Tee and Chino Weekend Look",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1625728273084-7f93dbdab9aa?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A relaxed weekend outfit featuring a clean cotton t-shirt paired with tailored chino trousers. The comfortable silhouette and neutral palette make it a versatile everyday casual choice.",
+    "aiScore": 8.2,
+    "tags": [
+      "cotton",
+      "t-shirt",
+      "chino",
+      "relaxed",
+      "weekend",
+      "neutral",
+      "everyday"
+    ]
+  },
+  {
+    "id": "160",
+    "title": "Relaxed Cotton Tee and Chino Weekend Look",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1620228922597-cca58f177310?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A relaxed weekend outfit featuring a clean cotton t-shirt paired with tailored chino trousers. The comfortable silhouette and neutral palette make it a versatile everyday casual choice.",
+    "aiScore": 8.2,
+    "tags": [
+      "cotton",
+      "t-shirt",
+      "chino",
+      "relaxed",
+      "weekend",
+      "neutral",
+      "everyday"
+    ]
+  },
+  {
+    "id": "161",
+    "title": "Relaxed Cotton Tee and Chino Weekend Look",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1744535814656-65f3cfa561bc?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A relaxed weekend outfit featuring a clean cotton t-shirt paired with tailored chino trousers. The comfortable silhouette and neutral palette make it a versatile everyday casual choice.",
+    "aiScore": 8.2,
+    "tags": [
+      "cotton",
+      "t-shirt",
+      "chino",
+      "relaxed",
+      "weekend",
+      "neutral",
+      "everyday"
+    ]
+  },
+  {
+    "id": "162",
+    "title": "Relaxed Cotton Tee and Chino Weekend Look",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1587072707615-c95b154d3ccb?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A relaxed weekend outfit featuring a clean cotton t-shirt paired with tailored chino trousers. The comfortable silhouette and neutral palette make it a versatile everyday casual choice.",
+    "aiScore": 8.2,
+    "tags": [
+      "cotton",
+      "t-shirt",
+      "chino",
+      "relaxed",
+      "weekend",
+      "neutral",
+      "everyday"
+    ]
+  },
+  {
+    "id": "163",
+    "title": "Relaxed Cotton Tee and Chino Weekend Look",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1672239496593-f51cdc01c0f8?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A relaxed weekend outfit featuring a clean cotton t-shirt paired with tailored chino trousers. The comfortable silhouette and neutral palette make it a versatile everyday casual choice.",
+    "aiScore": 8.2,
+    "tags": [
+      "cotton",
+      "t-shirt",
+      "chino",
+      "relaxed",
+      "weekend",
+      "neutral",
+      "everyday"
+    ]
+  },
+  {
+    "id": "164",
+    "title": "Relaxed Cotton Tee and Chino Weekend Look",
+    "gender": "male",
+    "category": "casual",
+    "images": [
+      "https://images.unsplash.com/photo-1718208017931-61525caca4d3?w=600&auto=format&fit=crop&q=60"
+    ],
+    "description": "A relaxed weekend outfit featuring a clean cotton t-shirt paired with tailored chino trousers. The comfortable silhouette and neutral palette make it a versatile everyday casual choice.",
+    "aiScore": 8.2,
+    "tags": [
+      "cotton",
+      "t-shirt",
+      "chino",
+      "relaxed",
+      "weekend",
+      "neutral",
+      "everyday"
+    ]
+  },
+  {
+    "id": "165",
+    "title": "Black Fitted Gym Tank and Training Shorts",
+    "gender": "male",
+    "category": "sports",
+    "images": [
+      "https://media.istockphoto.com/id/487423740/photo/full-length-portrait-of-a-sports-man.webp?a=1&b=1&s=612x612&w=0&k=20&c=z5GItqj4ih4IwxQcP52W9znrDzFO_Wtl_uUe65CRfN8="
+    ],
+    "description": "A performance-ready gym outfit featuring a fitted black tank top with moisture-wicking fabric paired with athletic training shorts. Designed for high-intensity workouts and cardio sessions with maximum range of motion.",
+    "aiScore": 8.1,
+    "tags": [
+      "tank-top",
+      "training-shorts",
+      "black",
+      "gym",
+      "moisture-wicking",
+      "fitted",
+      "weightlifting"
+    ]
+  },
+  {
+    "id": "166",
+    "title": "Black Fitted Gym Tank and Training Shorts",
+    "gender": "male",
+    "category": "sports",
+    "images": [
+      "https://media.istockphoto.com/id/1226925686/photo/sport-is-better-with-music-workout-comfortable-with-favorite-track-list-wireless-headphones.jpg?s=612x612&w=0&k=20&c=dX4dkM55NlXkvlHxDXqDLutgj-LhdAt39bUhCHYErww="
+    ],
+    "description": "A performance-ready gym outfit featuring a fitted black tank top with moisture-wicking fabric paired with athletic training shorts. Designed for high-intensity workouts and cardio sessions with maximum range of motion.",
+    "aiScore": 8.1,
+    "tags": [
+      "tank-top",
+      "training-shorts",
+      "black",
+      "gym",
+      "moisture-wicking",
+      "fitted",
+      "weightlifting"
+    ]
+  },
+  {
+    "id": "167",
+    "title": "Black Fitted Gym Tank and Training Shorts",
+    "gender": "male",
+    "category": "sports",
+    "images": [
+      "https://media.istockphoto.com/id/923766496/photo/young-athlete-man-is-doing-sport-runing.jpg?s=612x612&w=0&k=20&c=VVnyekFx2AmnUdO3OlX79FRdZw3KTBAYb5DJu5gYyUk="
+    ],
+    "description": "A performance-ready gym outfit featuring a fitted black tank top with moisture-wicking fabric paired with athletic training shorts. Designed for high-intensity workouts and cardio sessions with maximum range of motion.",
+    "aiScore": 8.1,
+    "tags": [
+      "tank-top",
+      "training-shorts",
+      "black",
+      "gym",
+      "moisture-wicking",
+      "fitted",
+      "weightlifting"
+    ]
+  },
+  {
+    "id": "168",
+    "title": "Black Fitted Gym Tank and Training Shorts",
+    "gender": "male",
+    "category": "sports",
+    "images": [
+      "https://images.unsplash.com/photo-1619361814016-4acc36025fa9?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A performance-ready gym outfit featuring a fitted black tank top with moisture-wicking fabric paired with athletic training shorts. Designed for high-intensity workouts and cardio sessions with maximum range of motion.",
+    "aiScore": 8.1,
+    "tags": [
+      "tank-top",
+      "training-shorts",
+      "black",
+      "gym",
+      "moisture-wicking",
+      "fitted",
+      "weightlifting"
+    ]
+  },
+  {
+    "id": "169",
+    "title": "Black Fitted Gym Tank and Training Shorts",
+    "gender": "male",
+    "category": "sports",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1682125575378-466681a2a84e?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A performance-ready gym outfit featuring a fitted black tank top with moisture-wicking fabric paired with athletic training shorts. Designed for high-intensity workouts and cardio sessions with maximum range of motion.",
+    "aiScore": 8.1,
+    "tags": [
+      "tank-top",
+      "training-shorts",
+      "black",
+      "gym",
+      "moisture-wicking",
+      "fitted",
+      "weightlifting"
+    ]
+  },
+  {
+    "id": "170",
+    "title": "Black Fitted Gym Tank and Training Shorts",
+    "gender": "male",
+    "category": "sports",
+    "images": [
+      "https://images.unsplash.com/photo-1744551358229-ef84be2f6b6b?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A performance-ready gym outfit featuring a fitted black tank top with moisture-wicking fabric paired with athletic training shorts. Designed for high-intensity workouts and cardio sessions with maximum range of motion.",
+    "aiScore": 8.1,
+    "tags": [
+      "tank-top",
+      "training-shorts",
+      "black",
+      "gym",
+      "moisture-wicking",
+      "fitted",
+      "weightlifting"
+    ]
+  },
+  {
+    "id": "171",
+    "title": "Black Fitted Gym Tank and Training Shorts",
+    "gender": "male",
+    "category": "sports",
+    "images": [
+      "https://media.istockphoto.com/id/1192060415/photo/powerful-strong-caucasian-man-in-sportswear-standing-in-garage-with-hands-on-hips-and-looking.webp?a=1&b=1&s=612x612&w=0&k=20&c=nFMoIx-tbhWcuACdMuzysJ6gFe3_tyQhKvwk6_xBVE8="
+    ],
+    "description": "A performance-ready gym outfit featuring a fitted black tank top with moisture-wicking fabric paired with athletic training shorts. Designed for high-intensity workouts and cardio sessions with maximum range of motion.",
+    "aiScore": 8.1,
+    "tags": [
+      "tank-top",
+      "training-shorts",
+      "black",
+      "gym",
+      "moisture-wicking",
+      "fitted",
+      "weightlifting"
+    ]
+  },
+  {
+    "id": "172",
+    "title": "Black Fitted Gym Tank and Training Shorts",
+    "gender": "male",
+    "category": "sports",
+    "images": [
+      "https://images.unsplash.com/photo-1679384322287-1d89429cf674?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A performance-ready gym outfit featuring a fitted black tank top with moisture-wicking fabric paired with athletic training shorts. Designed for high-intensity workouts and cardio sessions with maximum range of motion.",
+    "aiScore": 8.1,
+    "tags": [
+      "tank-top",
+      "training-shorts",
+      "black",
+      "gym",
+      "moisture-wicking",
+      "fitted",
+      "weightlifting"
+    ]
+  },
+  {
+    "id": "173",
+    "title": "Black Fitted Gym Tank and Training Shorts",
+    "gender": "male",
+    "category": "sports",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1661582679082-e97a94d8dd4d?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A performance-ready gym outfit featuring a fitted black tank top with moisture-wicking fabric paired with athletic training shorts. Designed for high-intensity workouts and cardio sessions with maximum range of motion.",
+    "aiScore": 8.1,
+    "tags": [
+      "tank-top",
+      "training-shorts",
+      "black",
+      "gym",
+      "moisture-wicking",
+      "fitted",
+      "weightlifting"
+    ]
+  },
+  {
+    "id": "174",
+    "title": "Black Fitted Gym Tank and Training Shorts",
+    "gender": "male",
+    "category": "sports",
+    "images": [
+      "https://images.unsplash.com/photo-1599577526149-97ab942dd343?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A performance-ready gym outfit featuring a fitted black tank top with moisture-wicking fabric paired with athletic training shorts. Designed for high-intensity workouts and cardio sessions with maximum range of motion.",
+    "aiScore": 8.1,
+    "tags": [
+      "tank-top",
+      "training-shorts",
+      "black",
+      "gym",
+      "moisture-wicking",
+      "fitted",
+      "weightlifting"
+    ]
+  },
+  {
+    "id": "175",
+    "title": "Black Fitted Gym Tank and Training Shorts",
+    "gender": "male",
+    "category": "sports",
+    "images": [
+      "https://images.unsplash.com/photo-1666121363805-f735460de041?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A performance-ready gym outfit featuring a fitted black tank top with moisture-wicking fabric paired with athletic training shorts. Designed for high-intensity workouts and cardio sessions with maximum range of motion.",
+    "aiScore": 8.1,
+    "tags": [
+      "tank-top",
+      "training-shorts",
+      "black",
+      "gym",
+      "moisture-wicking",
+      "fitted",
+      "weightlifting"
+    ]
+  },
+  {
+    "id": "176",
+    "title": "Black Fitted Gym Tank and Training Shorts",
+    "gender": "male",
+    "category": "sports",
+    "images": [
+      "https://media.istockphoto.com/id/1387624467/photo/man-in-gym.webp?a=1&b=1&s=612x612&w=0&k=20&c=t44epMb5F6Ssqked8rXazzXUt_wJFsw_31IKTDvOidc="
+    ],
+    "description": "A performance-ready gym outfit featuring a fitted black tank top with moisture-wicking fabric paired with athletic training shorts. Designed for high-intensity workouts and cardio sessions with maximum range of motion.",
+    "aiScore": 8.1,
+    "tags": [
+      "tank-top",
+      "training-shorts",
+      "black",
+      "gym",
+      "moisture-wicking",
+      "fitted",
+      "weightlifting"
+    ]
+  },
+  {
+    "id": "177",
+    "title": "Black Fitted Gym Tank and Training Shorts",
+    "gender": "male",
+    "category": "sports",
+    "images": [
+      "https://media.istockphoto.com/id/1301474130/photo/%C3%B0aucasian-bodybuilder-in-tracksuit-holding-smartphone-gadget-and-sportive-bag-looking-away.webp?a=1&b=1&s=612x612&w=0&k=20&c=_ymJdmuH1aN_5H7Lnp6dS4toe1t2_znnusZeZ0xRUds="
+    ],
+    "description": "A performance-ready gym outfit featuring a fitted black tank top with moisture-wicking fabric paired with athletic training shorts. Designed for high-intensity workouts and cardio sessions with maximum range of motion.",
+    "aiScore": 8.1,
+    "tags": [
+      "tank-top",
+      "training-shorts",
+      "black",
+      "gym",
+      "moisture-wicking",
+      "fitted",
+      "weightlifting"
+    ]
+  },
+  {
+    "id": "178",
+    "title": "Black Fitted Gym Tank and Training Shorts",
+    "gender": "male",
+    "category": "sports",
+    "images": [
+      "https://media.istockphoto.com/id/2178153707/photo/professional-sportsman-in-white-long-sleeve-posing-next-to-high-bars-in-gym.webp?a=1&b=1&s=612x612&w=0&k=20&c=FfyFZJ9x3M8A2SHdCL1hARXBQFoORn5JPd2d7fxhiZQ="
+    ],
+    "description": "A performance-ready gym outfit featuring a fitted black tank top with moisture-wicking fabric paired with athletic training shorts. Designed for high-intensity workouts and cardio sessions with maximum range of motion.",
+    "aiScore": 8.1,
+    "tags": [
+      "tank-top",
+      "training-shorts",
+      "black",
+      "gym",
+      "moisture-wicking",
+      "fitted",
+      "weightlifting"
+    ]
+  },
+  {
+    "id": "179",
+    "title": "Black Fitted Gym Tank and Training Shorts",
+    "gender": "male",
+    "category": "sports",
+    "images": [
+      "https://images.unsplash.com/photo-1682241367368-6387d5d4921a?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A performance-ready gym outfit featuring a fitted black tank top with moisture-wicking fabric paired with athletic training shorts. Designed for high-intensity workouts and cardio sessions with maximum range of motion.",
+    "aiScore": 8.1,
+    "tags": [
+      "tank-top",
+      "training-shorts",
+      "black",
+      "gym",
+      "moisture-wicking",
+      "fitted",
+      "weightlifting"
+    ]
+  },
+  {
+    "id": "180",
+    "title": "Black Fitted Gym Tank and Training Shorts",
+    "gender": "male",
+    "category": "sports",
+    "images": [
+      "https://images.unsplash.com/photo-1591741543032-bf439b4fd46c?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A performance-ready gym outfit featuring a fitted black tank top with moisture-wicking fabric paired with athletic training shorts. Designed for high-intensity workouts and cardio sessions with maximum range of motion.",
+    "aiScore": 8.1,
+    "tags": [
+      "tank-top",
+      "training-shorts",
+      "black",
+      "gym",
+      "moisture-wicking",
+      "fitted",
+      "weightlifting"
+    ]
+  },
+  {
+    "id": "181",
+    "title": "Black Fitted Gym Tank and Training Shorts",
+    "gender": "male",
+    "category": "sports",
+    "images": [
+      "https://images.unsplash.com/photo-1667890786327-d28da55b0e57?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A performance-ready gym outfit featuring a fitted black tank top with moisture-wicking fabric paired with athletic training shorts. Designed for high-intensity workouts and cardio sessions with maximum range of motion.",
+    "aiScore": 8.1,
+    "tags": [
+      "tank-top",
+      "training-shorts",
+      "black",
+      "gym",
+      "moisture-wicking",
+      "fitted",
+      "weightlifting"
+    ]
+  },
+  {
+    "id": "182",
+    "title": "Black Fitted Gym Tank and Training Shorts",
+    "gender": "male",
+    "category": "sports",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1663011489229-19a93408c56d?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A performance-ready gym outfit featuring a fitted black tank top with moisture-wicking fabric paired with athletic training shorts. Designed for high-intensity workouts and cardio sessions with maximum range of motion.",
+    "aiScore": 8.1,
+    "tags": [
+      "tank-top",
+      "training-shorts",
+      "black",
+      "gym",
+      "moisture-wicking",
+      "fitted",
+      "weightlifting"
+    ]
+  },
+  {
+    "id": "183",
+    "title": "Black Fitted Gym Tank and Training Shorts",
+    "gender": "male",
+    "category": "sports",
+    "images": [
+      "https://images.unsplash.com/photo-1731695603883-804df24274bf?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A performance-ready gym outfit featuring a fitted black tank top with moisture-wicking fabric paired with athletic training shorts. Designed for high-intensity workouts and cardio sessions with maximum range of motion.",
+    "aiScore": 8.1,
+    "tags": [
+      "tank-top",
+      "training-shorts",
+      "black",
+      "gym",
+      "moisture-wicking",
+      "fitted",
+      "weightlifting"
+    ]
+  },
+  {
+    "id": "184",
+    "title": "Black Fitted Gym Tank and Training Shorts",
+    "gender": "male",
+    "category": "sports",
+    "images": [
+      "https://images.unsplash.com/photo-1666121365672-f2bdd58cb311?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A performance-ready gym outfit featuring a fitted black tank top with moisture-wicking fabric paired with athletic training shorts. Designed for high-intensity workouts and cardio sessions with maximum range of motion.",
+    "aiScore": 8.1,
+    "tags": [
+      "tank-top",
+      "training-shorts",
+      "black",
+      "gym",
+      "moisture-wicking",
+      "fitted",
+      "weightlifting"
+    ]
+  },
+  {
+    "id": "185",
+    "title": "Black Fitted Gym Tank and Training Shorts",
+    "gender": "male",
+    "category": "sports",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1664300921195-50817af32733?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A performance-ready gym outfit featuring a fitted black tank top with moisture-wicking fabric paired with athletic training shorts. Designed for high-intensity workouts and cardio sessions with maximum range of motion.",
+    "aiScore": 8.1,
+    "tags": [
+      "tank-top",
+      "training-shorts",
+      "black",
+      "gym",
+      "moisture-wicking",
+      "fitted",
+      "weightlifting"
+    ]
+  },
+  {
+    "id": "186",
+    "title": "Black Fitted Gym Tank and Training Shorts",
+    "gender": "male",
+    "category": "sports",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1661906838856-16950cb4b789?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A performance-ready gym outfit featuring a fitted black tank top with moisture-wicking fabric paired with athletic training shorts. Designed for high-intensity workouts and cardio sessions with maximum range of motion.",
+    "aiScore": 8.1,
+    "tags": [
+      "tank-top",
+      "training-shorts",
+      "black",
+      "gym",
+      "moisture-wicking",
+      "fitted",
+      "weightlifting"
+    ]
+  },
+  {
+    "id": "187",
+    "title": "Black Fitted Gym Tank and Training Shorts",
+    "gender": "male",
+    "category": "sports",
+    "images": [
+      "https://images.unsplash.com/photo-1608138278545-366680accc66?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A performance-ready gym outfit featuring a fitted black tank top with moisture-wicking fabric paired with athletic training shorts. Designed for high-intensity workouts and cardio sessions with maximum range of motion.",
+    "aiScore": 8.1,
+    "tags": [
+      "tank-top",
+      "training-shorts",
+      "black",
+      "gym",
+      "moisture-wicking",
+      "fitted",
+      "weightlifting"
+    ]
+  },
+  {
+    "id": "188",
+    "title": "Black Fitted Gym Tank and Training Shorts",
+    "gender": "male",
+    "category": "sports",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1661963174428-93d9a3024aa4?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A performance-ready gym outfit featuring a fitted black tank top with moisture-wicking fabric paired with athletic training shorts. Designed for high-intensity workouts and cardio sessions with maximum range of motion.",
+    "aiScore": 8.1,
+    "tags": [
+      "tank-top",
+      "training-shorts",
+      "black",
+      "gym",
+      "moisture-wicking",
+      "fitted",
+      "weightlifting"
+    ]
+  },
+  {
+    "id": "189",
+    "title": "Black Fitted Gym Tank and Training Shorts",
+    "gender": "male",
+    "category": "sports",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1661964150828-0a917f8f4d13?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A performance-ready gym outfit featuring a fitted black tank top with moisture-wicking fabric paired with athletic training shorts. Designed for high-intensity workouts and cardio sessions with maximum range of motion.",
+    "aiScore": 8.1,
+    "tags": [
+      "tank-top",
+      "training-shorts",
+      "black",
+      "gym",
+      "moisture-wicking",
+      "fitted",
+      "weightlifting"
+    ]
+  },
+  {
+    "id": "190",
+    "title": "Black Fitted Gym Tank and Training Shorts",
+    "gender": "male",
+    "category": "sports",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1664476626452-c21c01676615?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A performance-ready gym outfit featuring a fitted black tank top with moisture-wicking fabric paired with athletic training shorts. Designed for high-intensity workouts and cardio sessions with maximum range of motion.",
+    "aiScore": 8.1,
+    "tags": [
+      "tank-top",
+      "training-shorts",
+      "black",
+      "gym",
+      "moisture-wicking",
+      "fitted",
+      "weightlifting"
+    ]
+  },
+  {
+    "id": "191",
+    "title": "Black Fitted Gym Tank and Training Shorts",
+    "gender": "male",
+    "category": "sports",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1726880471530-df8be1cf3f89?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A performance-ready gym outfit featuring a fitted black tank top with moisture-wicking fabric paired with athletic training shorts. Designed for high-intensity workouts and cardio sessions with maximum range of motion.",
+    "aiScore": 8.1,
+    "tags": [
+      "tank-top",
+      "training-shorts",
+      "black",
+      "gym",
+      "moisture-wicking",
+      "fitted",
+      "weightlifting"
+    ]
+  },
+  {
+    "id": "192",
+    "title": "Black Fitted Gym Tank and Training Shorts",
+    "gender": "male",
+    "category": "sports",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1663036345416-78d801832383?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A performance-ready gym outfit featuring a fitted black tank top with moisture-wicking fabric paired with athletic training shorts. Designed for high-intensity workouts and cardio sessions with maximum range of motion.",
+    "aiScore": 8.1,
+    "tags": [
+      "tank-top",
+      "training-shorts",
+      "black",
+      "gym",
+      "moisture-wicking",
+      "fitted",
+      "weightlifting"
+    ]
+  },
+  {
+    "id": "193",
+    "title": "Black Fitted Gym Tank and Training Shorts",
+    "gender": "male",
+    "category": "sports",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1682435530343-2b0dfa97cb9f?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A performance-ready gym outfit featuring a fitted black tank top with moisture-wicking fabric paired with athletic training shorts. Designed for high-intensity workouts and cardio sessions with maximum range of motion.",
+    "aiScore": 8.1,
+    "tags": [
+      "tank-top",
+      "training-shorts",
+      "black",
+      "gym",
+      "moisture-wicking",
+      "fitted",
+      "weightlifting"
+    ]
+  },
+  {
+    "id": "194",
+    "title": "Black Fitted Gym Tank and Training Shorts",
+    "gender": "male",
+    "category": "sports",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1663134025877-f62828d25fa3?w=400&auto=format&fit=crop&q=60"
+    ],
+    "description": "A performance-ready gym outfit featuring a fitted black tank top with moisture-wicking fabric paired with athletic training shorts. Designed for high-intensity workouts and cardio sessions with maximum range of motion.",
+    "aiScore": 8.1,
+    "tags": [
+      "tank-top",
+      "training-shorts",
+      "black",
+      "gym",
+      "moisture-wicking",
+      "fitted",
+      "weightlifting"
+    ]
+  },
+  {
+    "id": "195",
+    "title": "Black Fitted Gym Tank and Training Shorts",
+    "gender": "male",
+    "category": "sports",
+    "images": [
+      "https://media.istockphoto.com/id/664968052/photo/smiling-man-about-to-go-to-the-gym.jpg?s=612x612&w=0&k=20&c=dphlKgEwZi4m_0rcT3s_wwDD4tVD3vsVvUYiGN-eEO4="
+    ],
+    "description": "A performance-ready gym outfit featuring a fitted black tank top with moisture-wicking fabric paired with athletic training shorts. Designed for high-intensity workouts and cardio sessions with maximum range of motion.",
+    "aiScore": 8.1,
+    "tags": [
+      "tank-top",
+      "training-shorts",
+      "black",
+      "gym",
+      "moisture-wicking",
+      "fitted",
+      "weightlifting"
+    ]
+  },
+  {
+    "id": "196",
+    "title": "Black Fitted Gym Tank and Training Shorts",
+    "gender": "male",
+    "category": "sports",
+    "images": [
+      "https://media.istockphoto.com/id/942677454/photo/sportsman-standing-with-towel-after-training-in-gym.jpg?s=612x612&w=0&k=20&c=5R3BUb857Ts6Z_ke2YHxtioVrYlrFDHa8q68LWgx-0U="
+    ],
+    "description": "A performance-ready gym outfit featuring a fitted black tank top with moisture-wicking fabric paired with athletic training shorts. Designed for high-intensity workouts and cardio sessions with maximum range of motion.",
+    "aiScore": 8.1,
+    "tags": [
+      "tank-top",
+      "training-shorts",
+      "black",
+      "gym",
+      "moisture-wicking",
+      "fitted",
+      "weightlifting"
+    ]
+  },
+  {
+    "id": "197",
+    "title": "Black Fitted Gym Tank and Training Shorts",
+    "gender": "male",
+    "category": "sports",
+    "images": [
+      "https://media.istockphoto.com/id/1496429827/photo/ready-fitness-and-a-man-at-gym-for-training-exercise-and-a-cardio-workout-wellness-sport-and.jpg?s=612x612&w=0&k=20&c=VvH54eUPW06ow6BM6fXk67Ge7gKwOmwPZbo0zQEDQac="
+    ],
+    "description": "A performance-ready gym outfit featuring a fitted black tank top with moisture-wicking fabric paired with athletic training shorts. Designed for high-intensity workouts and cardio sessions with maximum range of motion.",
+    "aiScore": 8.1,
+    "tags": [
+      "tank-top",
+      "training-shorts",
+      "black",
+      "gym",
+      "moisture-wicking",
+      "fitted",
+      "weightlifting"
+    ]
+  },
+  {
+    "id": "198",
+    "title": "Black Fitted Gym Tank and Training Shorts",
+    "gender": "male",
+    "category": "sports",
+    "images": [
+      "https://media.istockphoto.com/id/2195078424/photo/man-wiping-sweat-during-workout-in-modern-gym-environment.jpg?s=612x612&w=0&k=20&c=rK_v-lKh0Fhulcr5SC7XBNvBuMYNut5hyKs4FBjsxIQ="
+    ],
+    "description": "A performance-ready gym outfit featuring a fitted black tank top with moisture-wicking fabric paired with athletic training shorts. Designed for high-intensity workouts and cardio sessions with maximum range of motion.",
+    "aiScore": 8.1,
+    "tags": [
+      "tank-top",
+      "training-shorts",
+      "black",
+      "gym",
+      "moisture-wicking",
+      "fitted",
+      "weightlifting"
+    ]
+  },
+  {
+    "id": "199",
+    "title": "Black Fitted Gym Tank and Training Shorts",
+    "gender": "male",
+    "category": "sports",
+    "images": [
+      "https://media.istockphoto.com/id/1476271037/photo/bearded-young-sportsman-walking-in-a-corridor.jpg?s=612x612&w=0&k=20&c=KV9_iSAGM3K7SgG34Tgiil6i1RV9-mY_8SqJ5ZLF2S4="
+    ],
+    "description": "A performance-ready gym outfit featuring a fitted black tank top with moisture-wicking fabric paired with athletic training shorts. Designed for high-intensity workouts and cardio sessions with maximum range of motion.",
+    "aiScore": 8.1,
+    "tags": [
+      "tank-top",
+      "training-shorts",
+      "black",
+      "gym",
+      "moisture-wicking",
+      "fitted",
+      "weightlifting"
+    ]
+  },
+  {
+    "id": "200",
+    "title": "Black Fitted Gym Tank and Training Shorts",
+    "gender": "male",
+    "category": "sports",
+    "images": [
+      "https://media.istockphoto.com/id/660309132/photo/athlete-guy.jpg?s=612x612&w=0&k=20&c=2udZ3lhdtlZ2Z-ovQ-2EDY_TMMAMPOKfKmMeumKTTQM="
+    ],
+    "description": "A performance-ready gym outfit featuring a fitted black tank top with moisture-wicking fabric paired with athletic training shorts. Designed for high-intensity workouts and cardio sessions with maximum range of motion.",
+    "aiScore": 8.1,
+    "tags": [
+      "tank-top",
+      "training-shorts",
+      "black",
+      "gym",
+      "moisture-wicking",
+      "fitted",
+      "weightlifting"
+    ]
+  }
+]
