@@ -11,8 +11,8 @@ namespace Shared.Dtos.OutfitDtos
     {
         public IFormFile  Top { get; set; }
         public IFormFile  Bottom { get; set; }
-        public IFormFile  Shoe { get; set; }
-        public IFormFile  Accessory { get; set; }
-        public IFormFile  Bag { get; set; }
+        public IFormFile?  Shoe { get; set; }
+        public IFormFile?  Accessory { get; set; }
+        public IFormFile?  Bag { get; set; }
     }
 }
