@@ -10,14 +10,20 @@ namespace Services.AttachmentService
 {
     public class AttachmentService : IAttachmentService
     {
-        private readonly List<string> _allowedExtensions = new() { ".png", ".jpg", ".jpeg" };
+        private readonly List<string> _allowedExtensions = new() { ".png", ".jpg", ".jpeg", ".webp", ".heic" };
         private const int _allowedMaxSize = 5 * 1024 * 1024; // 5 MB
 
         public async Task<string?> UploadAsync(IFormFile file, string folderName)
         {
-            // 1] Validation For Type Extensions
-            var extension = Path.GetExtension(file.FileName).ToLower();
-            if (!_allowedExtensions.Contains(extension))
+            // 1] Validation: Ensure both extension and content type are valid
+            var extension = Path.GetExtension(file.FileName).ToLower(); // Convert to lowercase to avoid case-sensitive issues
+            var contentType = file.ContentType.ToLower(); // Convert to lowercase for consistent comparison
+
+            bool isAllowedExtension = _allowedExtensions.Contains(extension);
+            bool isAllowedMimeType = contentType.StartsWith("image/");
+
+            // If either validation fails, return null to stop the upload process
+            if (!isAllowedExtension || !isAllowedMimeType)
                 return null;
 
             // 2] Validation For Max Size [5 MB]
