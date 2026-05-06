@@ -31,53 +31,64 @@ namespace Services.Outfit
         public async Task<OutfitResultDto> AnalyzeAndSaveOutfitAsync(string userId, OutfitRequestDto request)
         {
             // 1. Validation: Ensure all 5 images are provided
-            var images = new[] { request.Top, request.Bottom, request.Shoe, request.Accessory, request.Bag };
 
-            if (images.Any(i => i == null || i.Length == 0))
+            if (request.Top == null || request.Top.Length == 0 ||
+                request.Bottom == null || request.Bottom.Length == 0)
                 throw new OutfitImagesRequiredException();
 
+            var providedImages = new[] { request.Top, request.Bottom, request.Shoe, request.Bag, request.Accessory }
+                      .Where(i => i != null && i.Length > 0);
+
             // 2. Validation: Ensure all files are images
-            if (images.Any(i => !i.ContentType.StartsWith("image/")))
+            if (providedImages.Any(i => !i.ContentType.StartsWith("image/")))
                 throw new InvalidImageFileException();
+
+
+            var blankPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/image/White.jpg");
+            var blankBytes = await File.ReadAllBytesAsync(blankPath);
+            var blankBase64 = Convert.ToBase64String(blankBytes);
+
 
             // 3. Prepare the request for Flask AI (Base64Async)
             var aiRequest = new
             {
                 top = await ToBase64Async(request.Top),
                 bottom = await ToBase64Async(request.Bottom),
-                shoe = await ToBase64Async(request.Shoe),
-                bag =  await ToBase64Async(request.Bag),
-                accessory = await ToBase64Async(request.Accessory)
+                shoe = await ToBase64Async(request.Shoe, blankBase64),
+                bag = await ToBase64Async(request.Bag, blankBase64),
+                accessory = await ToBase64Async(request.Accessory, blankBase64)
             };
+ 
 
-            var jsonContent = new StringContent(JsonSerializer.Serialize(aiRequest), Encoding.UTF8, "application/json");
+            //var jsonContent = new StringContent(JsonSerializer.Serialize(aiRequest), Encoding.UTF8, "application/json");
 
-            // 4.Send data to Flask AI server
-            var response = await httpClient.PostAsync("diagnose", jsonContent);
+            //// 4.Send data to Flask AI server
+            //var response = await httpClient.PostAsync("diagnose", jsonContent);
             
-            if (!response.IsSuccessStatusCode)
-                throw new OutfitAnalysisFailedException();
+            //if (!response.IsSuccessStatusCode)
+            //    throw new OutfitAnalysisFailedException();
             
-            var resultContent = await response.Content.ReadAsStringAsync();
+            //var resultContent = await response.Content.ReadAsStringAsync();
 
             try
             {
                 // 5. Deserialize AI Response using your OutfitResultDto
 
-                ///// Use this Hardcoded data instead:
-                ///var aiResult = new OutfitResultDto
-                ///{
-                ///    OriginalScore = 0.755f,
-                ///    ImprovedScore = 0.900f,
-                ///    IsCompatible = true,
-                ///    Replacements = new Dictionary<string, string>
-                ///    {
-                ///        { "Shoe", "White Sneaker" },
-                ///        { "Accessory", "Silver Watch" }
-                ///    }
-                ///};
+                /// Use this Hardcoded data instead:
+                 var aiResult = new OutfitResultDto
+                {
+                 OriginalScore = 0.755f,
+                 ImprovedScore = 0.900f,
+                 IsCompatible = true,
+                 Replacements = new Dictionary<string, string>
+                    {
+                        { "Shoe", "White Sneaker" },
+                        { "Accessory", "Silver Watch" }
+                    }
+                }
+                ;
                 // --- MOCK END ---
-                var aiResult = JsonSerializer.Deserialize<OutfitResultDto>(resultContent);
+                //var aiResult = JsonSerializer.Deserialize<OutfitResultDto>(resultContent);
                 if (aiResult == null)
                     throw new InvalidOutfitAnalysisResultException();
 
@@ -85,9 +96,12 @@ namespace Services.Outfit
                 // Note: only upload if the AI analysis was successful
                 string topPath = await attachmentService.UploadAsync(request.Top, "outfits") ?? "";
                 string bottomPath = await attachmentService.UploadAsync(request.Bottom, "outfits") ?? "";
-                string shoePath = await attachmentService.UploadAsync(request.Shoe, "outfits") ?? "";
-                string accessoryPath = await attachmentService.UploadAsync(request.Accessory, "outfits") ?? "";
-                string bagPath = await attachmentService.UploadAsync(request.Bag, "outfits") ?? "";
+                //string shoePath = await attachmentService.UploadAsync(request.Shoe, "outfits") ?? "";
+                //string accessoryPath = await attachmentService.UploadAsync(request.Accessory, "outfits") ?? "";
+                //string bagPath = await attachmentService.UploadAsync(request.Bag, "outfits") ?? "";
+                string shoePath = request.Shoe != null ? await attachmentService.UploadAsync(request.Shoe, "outfits") ?? "" : "";
+                string accessoryPath = request.Accessory != null ? await attachmentService.UploadAsync(request.Accessory, "outfits") ?? "" : "";
+                string bagPath = request.Bag != null ? await attachmentService.UploadAsync(request.Bag, "outfits") ?? "" : "";
 
                 // 7.Save to History table
                 var history = new OutfitHistory
@@ -120,7 +134,7 @@ namespace Services.Outfit
             }
             
         }
-
+        
         public async Task<PaginationResponse<OutfitHistoryDto>> GetUserHistoryAsync(string userId ,OutfitHistorySpecificationsParameters specParams)
         {
             // 1. Get data using specification
@@ -146,6 +160,7 @@ namespace Services.Outfit
                 item.ShoeImagePath = urlService.BuildImageUrl(item.ShoeImagePath);
                 item.AccessoryImagePath = urlService.BuildImageUrl(item.AccessoryImagePath);
                 item.BagImagePath = urlService.BuildImageUrl(item.BagImagePath);
+
             }
 
             // Return paginated response
@@ -192,12 +207,16 @@ namespace Services.Outfit
             return result > 0;
         }
 
-        private async Task<string> ToBase64Async(IFormFile file)
+ 
+        private async Task<string> ToBase64Async(IFormFile? file, string blankBase64 = "")
         {
+            if (file == null || file.Length == 0)
+                return blankBase64;
+
             using var ms = new MemoryStream();
             await file.CopyToAsync(ms);
             return Convert.ToBase64String(ms.ToArray());
         }
-        
+
     }
 }
